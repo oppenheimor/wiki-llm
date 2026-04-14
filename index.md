@@ -10,10 +10,20 @@
 - [[concepts/vibercoding]] — AI 可视化辅助编程范式
 - [[concepts/rag-knowledge-base]] — 向量检索增强生成知识库
 - [[concepts/parallel-subagent-debugging]] — 批量 bug 并行 subagent 修复模式
+- [[concepts/claude-code-rules]] — Claude Code 配置的四层架构之规则层
+- [[concepts/claude-code-skills]] — Claude Code 配置的四层架构之技能层
+- [[concepts/claude-code-hooks]] — Claude Code 配置的四层架构之钩子层（含 memory-persistence、suggest-compact）
+- [[concepts/claude-code-agents]] — Claude Code 配置的四层架构之代理层（47 个 sub-agent）
 
 ## 产品（products）
 
 - [[products/nous-research]] — 开源优先、去中心化AI研究组织
+- [[products/everything-claude-code]] — 154K stars 的 Claude Code 四层配置体系（Rules/Skills/Hooks/Agents）
+- [[products/agent-shield]] — Claude Code 配置安全扫描工具（1282 项测试）
+
+## 模式（patterns）
+
+- [[patterns/claude-code-config-layers]] — Rules/Skills/Hooks/Agents 四层可配置结构模式
 
 ## 对比（comparisons）
 

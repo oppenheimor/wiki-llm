@@ -1,5 +1,27 @@
 # Wiki 操作日志
 
+## 2026-04-14: 收录《154K Star！Anthropic黑客松冠军的Claude Code配置大公开》
+
+**来源**：微信公众号文章（通过 CDP 抓取，2026-04-14）
+**新增页面**：
+- products/everything-claude-code.md
+- concepts/claude-code-rules.md
+- concepts/claude-code-skills.md
+- concepts/claude-code-hooks.md
+- concepts/claude-code-agents.md
+- patterns/claude-code-config-layers.md
+- products/agent-shield.md
+**更新页面**：
+- index.md：补充 7 个新入口（新概念 4 个 + 产品 2 个 + 模式 1 个）
+- concepts/hermes-agent.md：补充与 Everything Claude Code 的交叉引用
+**新增交叉引用**：
+- Everything Claude Code ↔ Claude Code Rules/Skills/Hooks/Agents（四层架构内部）
+- Claude Code Hooks ↔ Layered Memory（memory-persistence 与分层记忆的关联）
+- Claude Code Skills ↔ Skill System（技能抽象思路关联）
+- Claude Code Agents ↔ Hermes Agent（Agent 协调架构关联）
+- Claude Code Config Layers ↔ Everything Claude Code
+- AgentShield ↔ Everything Claude Code
+
 ## 2026-04-14: 收录《我是这么用 AI 的》
 
 **来源**：微信公众号文章（通过 CDP 抓取，2026-04-13）

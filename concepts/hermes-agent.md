@@ -43,12 +43,11 @@ curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scri
 
 ## 关联页面
 
+- [[products/everything-claude-code]] — Anthropic 黑客松冠军的 Claude Code 配置体系，与 Hermes Agent 有相似的"把方法论变成可复用结构"的设计思想
 - [[concepts/openclaw]]
 - [[concepts/self-evolution]]
 - [[concepts/layered-memory]]
 - [[concepts/skill-system]]
-- [[concepts/soul-md]]
-- [[products/nous-research]]
 
 ## 参考文档
 
