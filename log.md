@@ -1,5 +1,17 @@
 # Wiki 操作日志
 
+## 2026-04-15: 收录 shareAI-lab/learn-claude-code GitHub 仓库
+
+**来源**：https://github.com/shareAI-lab/learn-claude-code（通过 Jina 抓取 README，2026-04-15）
+**新增页面**：
+- products/learn-claude-code.md
+**更新页面**：
+- index.md：新增 learn-claude-code 产品入口
+**新增交叉引用**：
+- Learn Claude Code ↔ Everything Claude Code（教学 vs 使用的互补关系）
+- Learn Claude Code ↔ Claude Code Routines（s07-s12 的云端版本类比）
+- Learn Claude Code ↔ Hermes Agent（框架对比）
+
 ## 2026-04-15: 收录 chenglou/pretext GitHub 仓库
 
 **来源**：https://github.com/chenglou/pretext（通过 Jina 抓取 README，2026-04-15）
