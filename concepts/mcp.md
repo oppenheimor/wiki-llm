@@ -36,10 +36,17 @@ MCP 把这个 N×M 的胶水代码矩阵压缩成 N + M：服务方实现一次 
 
 两者结合，才拼出完整的 Agent 基础设施。
 
+## 与 CLI 的设计张力
+
+一线产品团队对 MCP 的看法开始更具体了：MCP 适合轻量、权限面清晰、工具边界收得很紧的场景；但在需要 Agent 自举、自调试、自修复能力时，CLI 往往更有优势，因为它和执行环境共处一地，不容易出现“传输层坏了，能力也一起消失”的问题。
+
+这并不意味着 MCP “已死”，更准确的说法是：MCP 和 CLI 各自适合不同的能力表面。前者更像受控接口层，后者更像可自修复执行面。
+
 ## 参考来源
 
 - 官方文档：https://code.claude.com/docs/zh-CN/mcp
 - 歸藏的AI工具箱《过了个年，AI 圈变天了？但没人告诉你为什么》（2026-02-25）
+- 微信公众号：《Notion Custom Agents复盘：三年重写5次，Notion 历史上最成功的新功能之一》（2026-04-15）
 
 ## 关联页面
 
@@ -47,3 +54,4 @@ MCP 把这个 N×M 的胶水代码矩阵压缩成 N + M：服务方实现一次 
 - [[concepts/a2a-protocol]]
 - [[concepts/claude-code-skills]]
 - [[concepts/openclaw]]
+- [[patterns/model-native-agent-interface]]

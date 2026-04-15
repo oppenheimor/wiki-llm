@@ -1,5 +1,30 @@
 # Wiki 操作日志
 
+## 2026-04-15: 收录 3 篇 Agent 文章（OpenClaw 安全 / Notion Custom Agents / Hermes 后续配置）
+
+**来源**：
+- https://mp.weixin.qq.com/s/6WjEsaPbB3w19G_lP2pkog （字节跳动技术团队，作者署名 火山AI安全，微信公众号，2026-04-15，CDP 抓取）
+- https://mp.weixin.qq.com/s/66dwBCc1mKfatEQQrayjtA （Founder Park，微信公众号，2026-04-15，CDP 抓取）
+- https://mp.weixin.qq.com/s/mk9vx9dtzyguqPDPmY91zQ （梦朝思夕技术与管理博客，微信公众号，2026-04-15，CDP 抓取）
+**新增页面**：
+- concepts/agent-iam.md — Agent 时代身份与访问管理的上位框架：身份传播、无秘钥验证、上下文感知、意图感知授权
+- patterns/model-native-agent-interface.md — 将内部复杂数据模型翻译成模型熟悉表示，并按工具规模做渐进式披露的接口设计模式
+**更新页面**：
+- concepts/openclaw.md：补入从 Agent IAM 视角理解 OpenClaw 风险放大的解释，并关联上位概念
+- concepts/hermes-agent.md：补入安装完成后的真实扩展面，包括 `SOUL.md`、外部记忆、Session Search、web_search、Camofox、Gateway 与 MCP
+- concepts/layered-memory.md：补充外接 memory provider 与 Session Search 对分层记忆的实际补足关系
+- concepts/mcp.md：补充 MCP 与 CLI 的设计张力，强调“受控接口层”与“可自修复执行面”的差异
+- index.md：新增 1 个 concept 入口与 1 个 pattern 入口
+**新增交叉引用**：
+- agent-iam ↔ openclaw / harness-engineering / mcp / claude-identity-verification
+- model-native-agent-interface ↔ mcp / constrained-decoding / harness-engineering
+- mcp ↔ model-native-agent-interface
+- openclaw ↔ agent-iam
+**审计备注**：
+- OpenClaw 安全文更适合沉淀为通用的 Agent IAM 上位概念，而不是只在 OpenClaw 页面追加事故罗列
+- Notion 文最有复用价值的是“模型友好接口”设计原则，而不是产品八卦或访谈逐段摘抄
+- Hermes 文以现有页面补丁为主，保留长期稳定的配置面，不机械收录易过期的安装细节
+
 ## 2026-04-15: 收录《龙虾退热后，爱马仕来了》
 
 **来源**：https://mp.weixin.qq.com/s/AA2fbMkT1ECwBlVcgC-YkA （AGI Hunt，微信公众号，2026-04-15，CDP 抓取）

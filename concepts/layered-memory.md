@@ -24,6 +24,8 @@
 - 帮助智能体建立用户的**长期画像**
 - 记住偏好、习惯和行为模式，而非单次会话细节
 
+在实际部署里，这一层以及第二层附近还可以外挂额外的 memory provider。后续使用文章列举了 Holographic、ByteRover、Honcho、Mem0、RetainDB、Hindsight、OpenViking、Supermemory 等不同取向的扩展实现。它们更像是“记忆后端插件”，而不是对分层思路本身的替代。
+
 ### 第四层（隐含）：程序化技能层
 
 - 技能作为独立"程序性记忆"存在
@@ -47,6 +49,8 @@
 
 内存栈设计目标：**令牌效率**和**按需检索**。常驻内存小巧且精心筛选，其他一切都当作可检索历史。
 
+另外，Hermes 在操作层还提供了与 Memory 互补的 Session Search：无 query 时直接浏览近期会话，有 query 时先走 FTS5，再交给 LLM 生成摘要；若摘要失败，则回退到原始预览。这说明“最近会话浏览”与“长期记忆检索”在产品上不一定是同一个接口。
+
 ## 与 OpenClaw 记忆对比
 
 | 维度 | Hermes | OpenClaw |
@@ -68,3 +72,4 @@
 - Hermes 持久化内存文档：https://hermes-agent.nousresearch.com/docs/user-guide/features/memory
 - Hermes Agent vs OpenClaw 解析：微信公众号文章（2026-04-14）
 - 微信公众号：浅谈 Agent Memory（2026-04-12）— 提供“工作/情景/语义/程序性记忆”与“记忆生命周期”上位框架
+- 微信公众号：《Hermes Agent装好了，还需要做的9件事》（2026-04-15）

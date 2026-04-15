@@ -32,6 +32,7 @@
 - [[concepts/subagent]] — 子智能体压缩模式："搜索的本质是压缩"
 - [[concepts/metr-time-horizon]] — METR 时长度量：AI 独立完成任务时长每 4~7 个月翻一倍
 - [[concepts/claude-to-im]] — 将 Claude Code 远程连接到飞书/Discord/Telegram 等 IM 平台的开源工具集
+- [[concepts/agent-iam]] — Agent 时代的身份与访问管理：身份传播、无秘钥验证、上下文与意图感知授权
 
 ## 产品（products）
 
@@ -50,6 +51,7 @@
 - [[patterns/chrome-cdp-browser-ws-uuid]] — Chrome CDP 两种启用方式下 Browser WS 路径差异的陷阱与排查
 - [[patterns/agent-always-on-host]] — 个人 Agent 想持续在线可用，宿主机必须 7×24 稳定运行
 - [[patterns/agent-four-layers-2026]] — 2026 初 Agent 生态四层叠乘框架（大脑/手脚/组织/进化）
+- [[patterns/model-native-agent-interface]] — 把内部复杂度翻译成模型熟悉表示，并按需渐进披露工具
 
 ## 对比（comparisons）
 
