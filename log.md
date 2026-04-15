@@ -1,5 +1,20 @@
 # Wiki 操作日志
 
+## 2026-04-15: 收录《疯了……Claude 最强风控：验你实名身份证！》
+
+**来源**：https://mp.weixin.qq.com/s/2v8pMIREoBgAI62fyZ96FA （AGI Hunt，微信公众号，2026-04-15，CDP 抓取）
+**新增页面**：
+- concepts/claude-identity-verification.md — Claude 平台引入的身份验证机制（特定能力访问 / 平台完整性检查 / 安全与合规）
+**更新页面**：
+- index.md：补充 1 个新概念入口（claude-identity-verification）
+**新增交叉引用**：
+- claude-identity-verification ↔ claude-code-routines/harness-engineering/rag-knowledge-base
+**审计备注**：
+- 已用 Anthropic 官方帮助中心《Identity verification on Claude》核实验证触发条件、材料要求、Persona 分工与数据使用边界
+- 已用 OpenAI 官方帮助中心《API Organization Verification》核实组织验证的证件要求、90 天限制与能力解锁范围
+**未执行项**：
+- 飞书 Wiki / 多维表格同步未执行：当前 `lark-cli` 缺少 user authorization 与 bitable 读取权限
+
 ## 2026-04-15: 收录《过了个年，AI 圈变天了？但没人告诉你为什么》
 
 **来源**：https://mp.weixin.qq.com/s/z7zNi_DayzevcTe0EUTv5g （歸藏的AI工具箱，微信公众号，2026-02-25，CDP 抓取）

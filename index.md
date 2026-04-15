@@ -16,6 +16,7 @@
 - [[concepts/claude-code-agents]] — Claude Code 配置的四层架构之代理层（47 个 sub-agent）
 - [[concepts/claude-code-routines]] — Claude Code 云端自动化运行功能（定时/API/GitHub触发）
 - [[concepts/claude-code-desktop]] — Claude Code 桌面端多会话并行重设计（含集成开发工具面板）
+- [[concepts/claude-identity-verification]] — Claude 平台针对特定能力与安全检查引入的身份验证机制
 - [[concepts/harness-engineering]] — 将 LLM 集成到生产环境的完整基础设施体系（工具链/权限/上下文/安全边界）
 - [[concepts/mcp]] — Model Context Protocol，Agent 连接工具/数据的统一接入协议
 - [[concepts/a2a-protocol]] — Google 主导的跨厂商 Agent-to-Agent 通信协议
