@@ -1,5 +1,27 @@
 # Wiki 操作日志
 
+## 2026-04-15: 收录《过了个年，AI 圈变天了？但没人告诉你为什么》
+
+**来源**：https://mp.weixin.qq.com/s/z7zNi_DayzevcTe0EUTv5g （歸藏的AI工具箱，微信公众号，2026-02-25，CDP 抓取）
+**新增页面**：
+- patterns/agent-four-layers-2026.md — 2026 初 Agent 四层叠乘框架（主论点）
+- concepts/mcp.md — Model Context Protocol
+- concepts/a2a-protocol.md — Agent-to-Agent 协议
+- concepts/gep-protocol.md — 基因组进化协议
+- concepts/agent-teams.md — Agent Teams 多智能体协同
+- concepts/subagent.md — SubAgent 压缩模式
+- concepts/metr-time-horizon.md — METR 任务时长度量
+- products/evomap.md — 经验进化平台
+**更新页面**：
+- concepts/openclaw.md：补充 Peter Steinberger 身份、OpenAI 收购事实、GUI 自动化、HEARTBEAT 心跳机制；修正关联页面指向已存在条目
+- index.md：新增 7 个 concepts、1 个 product、1 个 pattern 入口
+**新增交叉引用**：
+- agent-four-layers-2026 ↔ mcp/a2a-protocol/gep-protocol/agent-teams/subagent/metr-time-horizon/openclaw/evomap/claude-code-skills/parallel-subagent-debugging/claude-code-config-layers
+- mcp ↔ a2a-protocol/claude-code-skills/openclaw
+- gep-protocol ↔ evomap/self-evolution/claude-code-skills
+- agent-teams ↔ subagent/parallel-subagent-debugging/claude-code
+- subagent ↔ agent-teams/parallel-subagent-debugging/claude-code-agents
+
 ## 2026-04-15: 收录 Chrome CDP Browser WS UUID 陷阱排查经验
 
 **来源**：本机实际排查（cdp-proxy.mjs 时灵时不灵问题定位与修复）
