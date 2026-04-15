@@ -61,6 +61,8 @@ npx ecc-agentshield scan
 - [[patterns/claude-code-config-layers]] — ECC 背后的分层配置思路
 - [[products/agent-shield]] — ECC 内置的安全扫描工具
 - [[concepts/claude-code-routines]] — 云端自动化运行功能
+- [[concepts/harness-engineering]] — 四层配置体系是 Harness 工程的具体实践形式
+- [[products/claude-code-harness-analysis]] — Claude Code 源码层面的完整 Harness 架构分析（1,900 文件、512K 行 TypeScript）
 
 ## 参考来源
 

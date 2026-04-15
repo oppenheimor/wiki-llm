@@ -150,3 +150,31 @@
 - OpenClaw ↔ Skill System
 - Self-Evolution ↔ Layered Memory
 - Self-Evolution ↔ Skill System
+
+## 2026-04-15: 收录 Claude Code Routines 新增文章 + Harness Engineering + Claude Code 源码分析 + Claude-to-IM
+
+**来源**：
+- 微信公众号（CDP 抓取）：Claude 新功能 Routines：关上笔记本，也能 7×24 干活（2026-04-15）
+- 微信公众号（CDP 抓取）：Harness Engineering 实战：harness的最佳理解方式（陆徐洲，2026-04-15）
+- 51CTO（CDP 抓取）：从Harness角度对Claude Code源码深度解读（2026-04-15）
+- 微信公众号（CDP 抓取）：让你的 ClaudeCode 秒变 Openclaw（龙虾），连接飞书、Discord 远程控制（2026-04-15）
+- 官方文档（WebFetch）：https://code.claude.com/docs/en/agent-teams（已存在于 Wiki，无需新建）
+
+**新增页面**：
+- concepts/harness-engineering.md — 将 LLM 集成到生产环境的完整基础设施体系（模型/Harness 分离原则、安全联锁、上下文工程、六种多智能体模式）
+- products/claude-code-harness-analysis.md — 基于源码泄露快照的 Claude Code 工业级 Harness 架构逆向工程（1,900 文件、512K 行 TypeScript，src/tools 到 src/plugins 的完整子系统拆解）
+- concepts/claude-to-im.md — Claude-to-IM/Claude-to-IM-skill 开源工具集（Skill 安装即用 + SDK 面向开发者）
+
+**更新页面**：
+- concepts/claude-code-routines.md：补充每日运行上限（Pro 5/Max 15/Team&Enterprise 25）、身份归属注意事项；新增参考来源
+- concepts/agent-teams.md：补充 harness-engineering 和 claude-code-harness-analysis 交叉引用
+- products/everything-claude-code.md：补充 harness-engineering 和 claude-code-harness-analysis 交叉引用
+- patterns/agent-four-layers-2026.md：补充 harness-engineering 交叉引用
+- index.md：新增 3 个入口（harness-engineering + claude-to-im + claude-code-harness-analysis）
+
+**新增交叉引用**：
+- harness-engineering ↔ agent-teams/claude-code-routines/everything-claude-code/claude-code-harness-analysis/mcp/agent-four-layers-2026
+- claude-code-harness-analysis ↔ harness-engineering/agent-teams/subagent/claude-code-routines/everything-claude-code/learn-claude-code/agent-four-layers-2026
+- claude-to-im ↔ claude-code-routines/mcp
+- claude-code-routines ↔ harness-engineering/claude-code-harness-analysis
+- agent-teams ↔ harness-engineering/claude-code-harness-analysis

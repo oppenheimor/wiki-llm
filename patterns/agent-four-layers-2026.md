@@ -102,3 +102,4 @@ Agent 从对话框里走出来，获得操作外部世界的能力：
 - [[concepts/claude-code-skills]]
 - [[products/evomap]]
 - [[patterns/claude-code-config-layers]]
+- [[concepts/harness-engineering]]

@@ -16,12 +16,14 @@
 - [[concepts/claude-code-agents]] — Claude Code 配置的四层架构之代理层（47 个 sub-agent）
 - [[concepts/claude-code-routines]] — Claude Code 云端自动化运行功能（定时/API/GitHub触发）
 - [[concepts/claude-code-desktop]] — Claude Code 桌面端多会话并行重设计（含集成开发工具面板）
+- [[concepts/harness-engineering]] — 将 LLM 集成到生产环境的完整基础设施体系（工具链/权限/上下文/安全边界）
 - [[concepts/mcp]] — Model Context Protocol，Agent 连接工具/数据的统一接入协议
 - [[concepts/a2a-protocol]] — Google 主导的跨厂商 Agent-to-Agent 通信协议
 - [[concepts/gep-protocol]] — 基因组进化协议：Agent 经验以基因胶囊形式可继承可进化
 - [[concepts/agent-teams]] — Anthropic 多智能体协作机制（Team Lead + 持续 Teammate）
 - [[concepts/subagent]] — 子智能体压缩模式："搜索的本质是压缩"
 - [[concepts/metr-time-horizon]] — METR 时长度量：AI 独立完成任务时长每 4~7 个月翻一倍
+- [[concepts/claude-to-im]] — 将 Claude Code 远程连接到飞书/Discord/Telegram 等 IM 平台的开源工具集
 
 ## 产品（products）
 
@@ -30,6 +32,7 @@
 - [[products/agent-shield]] — Claude Code 配置安全扫描工具（1282 项测试）
 - [[products/pretext]] — 纯 JS/TS 文本测量与布局库，不碰 DOM 不触发 reflow
 - [[products/learn-claude-code]] — Agent Harness 工程 0→1 教学项目（12 个渐进课程）
+- [[products/claude-code-harness-analysis]] — 基于源码泄露快照的 Claude Code 工业级 Harness 架构逆向工程分析
 - [[products/evomap]] — 基于 GEP 协议的 Agent 经验进化平台
 
 ## 模式（patterns）
