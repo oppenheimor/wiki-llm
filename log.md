@@ -1,5 +1,15 @@
 # Wiki 操作日志
 
+## 2026-04-15: 收录 chenglou/pretext GitHub 仓库
+
+**来源**：https://github.com/chenglou/pretext（通过 Jina 抓取 README，2026-04-15）
+**新增页面**：
+- products/pretext.md
+**更新页面**：
+- index.md：新增 pretext 产品入口
+**新增交叉引用**：
+- 暂无（首个文本测量/布局领域实体，待后续相关页面收录后补交叉引用）
+
 ## 2026-04-15: 收录《刚刚！Claude Code 两连发：Routines 让 AI 替你值班，桌面端一个窗口并行跑多任务》
 
 **来源**：微信公众号文章（通过 CDP 抓取，2026-04-15）

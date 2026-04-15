@@ -22,6 +22,7 @@
 - [[products/nous-research]] — 开源优先、去中心化AI研究组织
 - [[products/everything-claude-code]] — 154K stars 的 Claude Code 四层配置体系（Rules/Skills/Hooks/Agents）
 - [[products/agent-shield]] — Claude Code 配置安全扫描工具（1282 项测试）
+- [[products/pretext]] — 纯 JS/TS 文本测量与布局库，不碰 DOM 不触发 reflow
 
 ## 模式（patterns）
 
