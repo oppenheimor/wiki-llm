@@ -1,5 +1,15 @@
 # Wiki 操作日志
 
+## 2026-04-15: 收录 Chrome CDP Browser WS UUID 陷阱排查经验
+
+**来源**：本机实际排查（cdp-proxy.mjs 时灵时不灵问题定位与修复）
+**新增页面**：
+- patterns/chrome-cdp-browser-ws-uuid.md
+**更新页面**：
+- index.md：新增 chrome-cdp-browser-ws-uuid 模式入口
+**新增交叉引用**：
+- chrome-cdp-browser-ws-uuid → concepts/claude-code-skills
+
 ## 2026-04-15: 收录 forrestchang/andrej-karpathy-skills 的 CLAUDE.md
 
 **来源**：https://github.com/forrestchang/andrej-karpathy-skills/blob/main/CLAUDE.md（curl raw 抓取，2026-04-15）

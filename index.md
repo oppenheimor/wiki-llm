@@ -29,6 +29,7 @@
 
 - [[patterns/claude-code-config-layers]] — Rules/Skills/Hooks/Agents 四层可配置结构模式
 - [[patterns/llm-coding-discipline]] — LLM 编码四纪律（Think/Simplicity/Surgical/Goal-Driven）
+- [[patterns/chrome-cdp-browser-ws-uuid]] — Chrome CDP 两种启用方式下 Browser WS 路径差异的陷阱与排查
 
 ## 对比（comparisons）
 
