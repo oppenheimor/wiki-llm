@@ -1,5 +1,26 @@
 # Wiki 操作日志
 
+## 2026-04-15: 收录《龙虾退热后，爱马仕来了》
+
+**来源**：https://mp.weixin.qq.com/s/AA2fbMkT1ECwBlVcgC-YkA （AGI Hunt，微信公众号，2026-04-15，CDP 抓取）
+**新增页面**：
+- patterns/agent-always-on-host.md — 个人 Agent 想从“本地软件”变成“持续在线助理”，需要 7×24 在线宿主机
+**更新页面**：
+- concepts/hermes-agent.md：补充 `hermes claw migrate` 迁移信息与宿主机前提
+- concepts/openclaw.md：补充 Gateway / HEARTBEAT 对持续在线宿主机的依赖
+- comparisons/hermes-agent-vs-openclaw.md：补充“共同前提：宿主机先于框架选择”与宿主机对比维度
+- index.md：新增 1 个 pattern 入口（agent-always-on-host）
+**新增交叉引用**：
+- agent-always-on-host ↔ hermes-agent/openclaw/hermes-agent-vs-openclaw/claude-code-routines
+- hermes-agent ↔ agent-always-on-host
+- openclaw ↔ agent-always-on-host
+- hermes-agent-vs-openclaw ↔ agent-always-on-host
+**审计备注**：
+- 文章中关于 Hermes 与 OpenClaw 的框架差异主要作为现有页面的增量来源
+- 文章中关于七牛云轻量服务器的厂商推广信息未直接沉淀为稳定知识，抽象为更长期有效的“7×24 在线宿主机”模式
+**未执行项**：
+- 飞书 Wiki / 多维表格同步未执行：当前 `lark-cli` 缺少 user authorization 与 bitable 读取权限
+
 ## 2026-04-15: 收录《疯了……Claude 最强风控：验你实名身份证！》
 
 **来源**：https://mp.weixin.qq.com/s/2v8pMIREoBgAI62fyZ96FA （AGI Hunt，微信公众号，2026-04-15，CDP 抓取）
