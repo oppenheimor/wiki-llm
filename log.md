@@ -1,5 +1,16 @@
 # Wiki 操作日志
 
+## 2026-04-15: 收录《刚刚！Claude Code 两连发：Routines 让 AI 替你值班，桌面端一个窗口并行跑多任务》
+
+**来源**：微信公众号文章（通过 CDP 抓取，2026-04-15）
+**新增页面**：
+- concepts/claude-code-desktop.md
+**更新页面**：
+- concepts/claude-code-routines.md：补充时区自动换算、API 触发上下文、GitHub 事件过滤条件、SDK 跨语言移植场景、身份归属与权限最小化注意事项、"Claude Code on the web" 前置条件
+- index.md：新增 claude-code-desktop 入口
+**新增交叉引用**：
+- Claude Code Desktop ↔ Claude Code Routines（同日发布的「并行」双更新）
+
 ## 2026-04-15: 收录《刚刚，Claude Code 推出 Routines，让 AI 自动帮你值夜班》
 
 **来源**：微信公众号文章（通过 CDP 抓取，2026-04-15）

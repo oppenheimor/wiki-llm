@@ -15,6 +15,7 @@
 - [[concepts/claude-code-hooks]] — Claude Code 配置的四层架构之钩子层（含 memory-persistence、suggest-compact）
 - [[concepts/claude-code-agents]] — Claude Code 配置的四层架构之代理层（47 个 sub-agent）
 - [[concepts/claude-code-routines]] — Claude Code 云端自动化运行功能（定时/API/GitHub触发）
+- [[concepts/claude-code-desktop]] — Claude Code 桌面端多会话并行重设计（含集成开发工具面板）
 
 ## 产品（products）
 
