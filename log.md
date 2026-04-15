@@ -214,3 +214,19 @@
 - claude-to-im ↔ claude-code-routines/mcp
 - claude-code-routines ↔ harness-engineering/claude-code-harness-analysis
 - agent-teams ↔ harness-engineering/claude-code-harness-analysis
+
+## 2026-04-15: 收录《从 ChatBot 到 Agent：一个 while 循环，凭什么让 AI 从"能聊天"变成"能干活"？》
+
+**来源**：用户输入文章（约 21 分钟阅读）
+**新增页面**：
+- concepts/agent-loop.md
+- concepts/react-pattern.md
+- comparisons/chatbot-vs-copilot-vs-agent.md
+**更新页面**：
+- index.md：补充 2 个概念入口 + 1 个对比入口
+- concepts/harness-engineering.md：补充 agent-loop / react-pattern 交叉引用
+- products/learn-claude-code.md：补充 agent-loop / react-pattern 交叉引用
+**新增交叉引用**：
+- agent-loop ↔ react-pattern/harness-engineering/mcp/subagent/learn-claude-code/claude-code-harness-analysis/chatbot-vs-copilot-vs-agent
+- react-pattern ↔ agent-loop/harness-engineering/learn-claude-code/chatbot-vs-copilot-vs-agent
+- chatbot-vs-copilot-vs-agent ↔ agent-loop/react-pattern/harness-engineering/learn-claude-code

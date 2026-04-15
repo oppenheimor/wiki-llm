@@ -18,6 +18,8 @@
 - [[concepts/claude-code-desktop]] — Claude Code 桌面端多会话并行重设计（含集成开发工具面板）
 - [[concepts/claude-identity-verification]] — Claude 平台针对特定能力与安全检查引入的身份验证机制
 - [[concepts/harness-engineering]] — 将 LLM 集成到生产环境的完整基础设施体系（工具链/权限/上下文/安全边界）
+- [[concepts/agent-loop]] — Agent 的最小运行内核：模型在 while 循环中持续决定下一步行动
+- [[concepts/react-pattern]] — Reasoning / Acting / Observation 三段式 Agent 基础范式
 - [[concepts/mcp]] — Model Context Protocol，Agent 连接工具/数据的统一接入协议
 - [[concepts/a2a-protocol]] — Google 主导的跨厂商 Agent-to-Agent 通信协议
 - [[concepts/gep-protocol]] — 基因组进化协议：Agent 经验以基因胶囊形式可继承可进化
@@ -47,3 +49,4 @@
 ## 对比（comparisons）
 
 - [[comparisons/hermes-agent-vs-openclaw]] — 两大自托管AI智能体框架的完整对比
+- [[comparisons/chatbot-vs-copilot-vs-agent]] — 三种 AI 交互形态的控制权与自主性差异

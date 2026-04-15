@@ -30,6 +30,8 @@
 本概念作为理解 Claude Code 与类似系统架构的公共词汇；在 [[products/everything-claude-code]]、[[patterns/agent-four-layers-2026]]、[[products/claude-code-hooks-analysis]] 中均有体现。
 
 ## 关联页面
+- [[concepts/agent-loop]]
+- [[concepts/react-pattern]]
 - [[concepts/agent-teams]]
 - [[concepts/subagent]]
 - [[patterns/claude-code-config-layers]]

@@ -78,6 +78,8 @@ Claude Code = one agent loop
 ## 关联页面
 
 - [[products/everything-claude-code]] — 现有配置仓库（四层架构）
+- [[concepts/agent-loop]] — 课程 s01 对应的最小调度内核
+- [[concepts/react-pattern]] — “想-做-看”认知闭环的理论表达
 - [[concepts/claude-code-routines]] — 云端自动化（s07-s12 的云端版本）
 - [[concepts/claude-code-agents]] — sub-agent 机制（s04 的对应概念）
 - [[concepts/claude-code-skills]] — skill 机制（s05 的对应概念）
