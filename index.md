@@ -28,6 +28,7 @@
 ## 模式（patterns）
 
 - [[patterns/claude-code-config-layers]] — Rules/Skills/Hooks/Agents 四层可配置结构模式
+- [[patterns/llm-coding-discipline]] — LLM 编码四纪律（Think/Simplicity/Surgical/Goal-Driven）
 
 ## 对比（comparisons）
 

@@ -1,5 +1,16 @@
 # Wiki 操作日志
 
+## 2026-04-15: 收录 forrestchang/andrej-karpathy-skills 的 CLAUDE.md
+
+**来源**：https://github.com/forrestchang/andrej-karpathy-skills/blob/main/CLAUDE.md（curl raw 抓取，2026-04-15）
+**新增页面**：
+- patterns/llm-coding-discipline.md
+**更新页面**：
+- index.md：新增 llm-coding-discipline 模式入口
+**新增交叉引用**：
+- LLM Coding Discipline ↔ Claude Code Rules（属于规则层的具体实例）
+- LLM Coding Discipline ↔ Claude Code Config Layers（四层架构归位）
+
 ## 2026-04-15: 收录 shareAI-lab/learn-claude-code GitHub 仓库
 
 **来源**：https://github.com/shareAI-lab/learn-claude-code（通过 Jina 抓取 README，2026-04-15）
