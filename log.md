@@ -230,3 +230,22 @@
 - agent-loop ↔ react-pattern/harness-engineering/mcp/subagent/learn-claude-code/claude-code-harness-analysis/chatbot-vs-copilot-vs-agent
 - react-pattern ↔ agent-loop/harness-engineering/learn-claude-code/chatbot-vs-copilot-vs-agent
 - chatbot-vs-copilot-vs-agent ↔ agent-loop/react-pattern/harness-engineering/learn-claude-code
+
+## 2026-04-15: 收录《做 Agent 开发，有些大模型本身的底层机制，你不得不了解》
+
+**来源**：用户输入文章（约 23 分钟阅读）
+**新增页面**：
+- concepts/tokenization.md
+- concepts/autoregressive-generation.md
+- concepts/kv-cache.md
+- concepts/constrained-decoding.md
+**更新页面**：
+- index.md：补充 4 个概念入口
+- concepts/agent-loop.md：补充与底层机制概念页的关联
+- concepts/harness-engineering.md：补充与底层机制概念页的关联
+- products/claude-code-harness-analysis.md：补充与底层机制概念页的关联
+**新增交叉引用**：
+- tokenization ↔ autoregressive-generation/kv-cache/constrained-decoding/agent-loop/harness-engineering/claude-code-harness-analysis
+- autoregressive-generation ↔ tokenization/constrained-decoding/agent-loop/react-pattern/claude-code-harness-analysis
+- kv-cache ↔ tokenization/agent-loop/harness-engineering/autoregressive-generation/claude-code-harness-analysis
+- constrained-decoding ↔ autoregressive-generation/tokenization/agent-loop/harness-engineering/claude-code-harness-analysis

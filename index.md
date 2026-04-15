@@ -20,6 +20,10 @@
 - [[concepts/harness-engineering]] — 将 LLM 集成到生产环境的完整基础设施体系（工具链/权限/上下文/安全边界）
 - [[concepts/agent-loop]] — Agent 的最小运行内核：模型在 while 循环中持续决定下一步行动
 - [[concepts/react-pattern]] — Reasoning / Acting / Observation 三段式 Agent 基础范式
+- [[concepts/tokenization]] — 文本进入模型前的离散化过程，是窗口、计费和缓存的共同计量单位
+- [[concepts/autoregressive-generation]] — 大模型逐 token 生成文本的基本机制，也是流式响应的底层来源
+- [[concepts/kv-cache]] — Transformer 对历史 Key / Value 的缓存机制，决定长上下文的成本与延迟
+- [[concepts/constrained-decoding]] — 通过限制可选 token 保证结构化输出和工具调用合法性的解码技术
 - [[concepts/mcp]] — Model Context Protocol，Agent 连接工具/数据的统一接入协议
 - [[concepts/a2a-protocol]] — Google 主导的跨厂商 Agent-to-Agent 通信协议
 - [[concepts/gep-protocol]] — 基因组进化协议：Agent 经验以基因胶囊形式可继承可进化

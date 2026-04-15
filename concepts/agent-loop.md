@@ -49,6 +49,10 @@ while (true) {
 
 ## 关联页面
 - [[concepts/react-pattern]]
+- [[concepts/tokenization]]
+- [[concepts/autoregressive-generation]]
+- [[concepts/kv-cache]]
+- [[concepts/constrained-decoding]]
 - [[concepts/harness-engineering]]
 - [[concepts/mcp]]
 - [[concepts/subagent]]

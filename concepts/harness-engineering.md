@@ -32,6 +32,10 @@
 ## 关联页面
 - [[concepts/agent-loop]]
 - [[concepts/react-pattern]]
+- [[concepts/tokenization]]
+- [[concepts/autoregressive-generation]]
+- [[concepts/kv-cache]]
+- [[concepts/constrained-decoding]]
 - [[concepts/agent-teams]]
 - [[concepts/subagent]]
 - [[patterns/claude-code-config-layers]]

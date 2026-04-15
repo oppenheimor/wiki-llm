@@ -109,6 +109,10 @@ Claude Code = 单循环 + Harness
 ## 关联页面
 
 - [[concepts/harness-engineering]] — 本分析所基于的核心概念
+- [[concepts/tokenization]] — 长上下文和 Token 计数的底层计量单位
+- [[concepts/autoregressive-generation]] — 流式响应与工具参数碎片化输出的生成机制
+- [[concepts/kv-cache]] — 长上下文下延迟与成本优化的关键缓存机制
+- [[concepts/constrained-decoding]] — 结构化输出与工具调用可靠性的解码约束基础
 - [[concepts/agent-teams]] — 多智能体协调机制
 - [[concepts/subagent]] — 子智能体生成机制
 - [[patterns/agent-four-layers-2026]] — 2026 年 Agent 生态四层框架
