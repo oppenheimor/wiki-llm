@@ -60,6 +60,7 @@ npx ecc-agentshield scan
 - [[concepts/hermes-agent]] — 文中对比参照的 Agent 框架
 - [[patterns/claude-code-config-layers]] — ECC 背后的分层配置思路
 - [[products/agent-shield]] — ECC 内置的安全扫描工具
+- [[concepts/claude-code-routines]] — 云端自动化运行功能
 
 ## 参考来源
 

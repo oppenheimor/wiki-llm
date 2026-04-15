@@ -1,5 +1,16 @@
 # Wiki 操作日志
 
+## 2026-04-15: 收录《刚刚，Claude Code 推出 Routines，让 AI 自动帮你值夜班》
+
+**来源**：微信公众号文章（通过 CDP 抓取，2026-04-15）
+**新增页面**：
+- concepts/claude-code-routines.md
+**更新页面**：
+- index.md：补充 1 个新概念入口（claude-code-routines）
+- products/everything-claude-code.md：补充与 Routines 的交叉引用
+**新增交叉引用**：
+- Claude Code Routines ↔ Everything Claude Code（ECC 四层架构的自然延伸）
+
 ## 2026-04-14: 收录《154K Star！Anthropic黑客松冠军的Claude Code配置大公开》
 
 **来源**：微信公众号文章（通过 CDP 抓取，2026-04-14）

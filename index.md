@@ -14,6 +14,7 @@
 - [[concepts/claude-code-skills]] — Claude Code 配置的四层架构之技能层
 - [[concepts/claude-code-hooks]] — Claude Code 配置的四层架构之钩子层（含 memory-persistence、suggest-compact）
 - [[concepts/claude-code-agents]] — Claude Code 配置的四层架构之代理层（47 个 sub-agent）
+- [[concepts/claude-code-routines]] — Claude Code 云端自动化运行功能（定时/API/GitHub触发）
 
 ## 产品（products）
 
