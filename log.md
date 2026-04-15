@@ -249,3 +249,26 @@
 - autoregressive-generation ↔ tokenization/constrained-decoding/agent-loop/react-pattern/claude-code-harness-analysis
 - kv-cache ↔ tokenization/agent-loop/harness-engineering/autoregressive-generation/claude-code-harness-analysis
 - constrained-decoding ↔ autoregressive-generation/tokenization/agent-loop/harness-engineering/claude-code-harness-analysis
+
+## 2026-04-15: 收录《浅谈 Agent Memory》
+
+**来源**：https://mp.weixin.qq.com/s/8j6dX0yFAudjmmExmxB5MQ （浮之静，作者署名 lencx，微信公众号，2026-04-15，CDP 抓取）
+**新增页面**：
+- concepts/agent-memory.md — Agent Memory 的上位问题框架（认知分层 / 生命周期 / Raw vs Derived / 遗忘 / 治理 / 技能化）
+**更新页面**：
+- index.md：补充 1 个新概念入口（agent-memory）
+- concepts/rag-knowledge-base.md：补充 “RAG 不是完整 Memory” 的边界说明与交叉引用
+- concepts/layered-memory.md：补充与 agent-memory 的上位关联及参考来源
+- concepts/skill-system.md：补充 Skills 作为程序性记忆的上位关联及参考来源
+- concepts/self-evolution.md：补充与 agent-memory 的交叉引用及参考来源
+- concepts/hermes-agent.md：补充与 agent-memory 的交叉引用
+**新增交叉引用**：
+- agent-memory ↔ layered-memory/skill-system/self-evolution/rag-knowledge-base/hermes-agent/agent-teams/harness-engineering
+- rag-knowledge-base ↔ agent-memory
+- layered-memory ↔ agent-memory
+- skill-system ↔ agent-memory
+- self-evolution ↔ agent-memory
+- hermes-agent ↔ agent-memory
+**审计备注**：
+- 本文更适合作为“Agent Memory 总论”沉淀到 concepts，而不是机械按 Hermes / OpenClaw 某个具体实现页补丁式更新
+- 页面中的具体论文与项目名主要作为问题框架的参考来源保留；核心沉淀是“记忆不是存档，而是时间中的状态治理”

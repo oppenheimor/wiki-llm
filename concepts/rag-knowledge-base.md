@@ -30,11 +30,13 @@
 - 向量搜索不能替代精确查找
 - 知识库需要定期更新
 - 检索+生成的延迟较高
+- 它主要解决“读外部知识”的问题，不天然覆盖写入、整理、失效和遗忘等记忆生命周期
 
 ## 关联页面
 
 - [[concepts/vibercoding]] — AI 辅助编程
 - [[concepts/hermes-agent]] — Hermes Agent 内置 RAG 工具集成能力
+- [[concepts/agent-memory]] — RAG 是记忆系统的组件，不等于完整的 Agent Memory
 
 ## 参考文档
 

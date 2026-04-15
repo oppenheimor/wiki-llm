@@ -58,6 +58,7 @@
 
 ## 关联页面
 
+- [[concepts/agent-memory]]
 - [[concepts/hermes-agent]]
 - [[concepts/self-evolution]]
 - [[concepts/skill-system]]
@@ -66,3 +67,4 @@
 
 - Hermes 持久化内存文档：https://hermes-agent.nousresearch.com/docs/user-guide/features/memory
 - Hermes Agent vs OpenClaw 解析：微信公众号文章（2026-04-14）
+- 微信公众号：浅谈 Agent Memory（2026-04-12）— 提供“工作/情景/语义/程序性记忆”与“记忆生命周期”上位框架

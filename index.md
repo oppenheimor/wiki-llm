@@ -6,6 +6,7 @@
 - [[concepts/openclaw]] — 以工作区文件为核心的自托管AI智能体框架
 - [[concepts/self-evolution]] — 智能体通过使用经验不断积累能力的范式
 - [[concepts/layered-memory]] — Hermes Agent的分层持久化记忆体系
+- [[concepts/agent-memory]] — 智能体记忆不是检索别名，而是管理过去如何进入现在的分层状态治理系统
 - [[concepts/skill-system]] — 工作流自动抽象为可复用程序化技能的能力
 - [[concepts/vibercoding]] — AI 可视化辅助编程范式
 - [[concepts/rag-knowledge-base]] — 向量检索增强生成知识库

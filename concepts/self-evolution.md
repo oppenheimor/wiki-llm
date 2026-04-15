@@ -32,6 +32,7 @@ Hermes Agent 将自我进化落地为一套完整的技术栈：
 
 ## 关联页面
 
+- [[concepts/agent-memory]]
 - [[concepts/hermes-agent]]
 - [[concepts/skill-system]]
 - [[concepts/layered-memory]]
@@ -40,3 +41,4 @@ Hermes Agent 将自我进化落地为一套完整的技术栈：
 
 - Hermes Agent 架构文档：https://hermes-agent.nousresearch.com/docs/developer-guide/architecture
 - Hermes Agent vs OpenClaw 解析：微信公众号文章（2026-04-14）
+- 微信公众号：浅谈 Agent Memory（2026-04-12）— 补充“从情景记忆走向程序性记忆”的上位论述
