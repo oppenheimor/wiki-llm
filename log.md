@@ -1,5 +1,20 @@
 # Wiki 操作日志
 
+## 2026-04-16: 收录《阿里下场做了中国版的 Lovable，好用到炸。》
+
+**来源**：https://mp.weixin.qq.com/s/oyxud3tAmvSR868NqK9mRA （AI产品阿颖，微信公众号，2026-04-16，CDP 抓取）以及 Meoo 官网 https://meoo.com
+**新增页面**：
+- products/meoo.md — 阿里推出的 AI 应用生成产品，沉淀其“自然语言生成应用 + 文件驱动生成 + 预置案例工坊”的稳定定位
+**更新页面**：
+- concepts/vibercoding.md：补充 Meoo 作为 Vibecoding 高反馈载体的案例，并增加产品关联
+- index.md：新增 1 个产品入口（meoo）
+**新增交叉引用**：
+- meoo ↔ vibercoding / multi-agent-architecture / harness-engineering
+- vibercoding ↔ meoo
+**审计备注**：
+- 官方站点用于确认稳定事实：产品名称、Meta 描述、首页预置分类与案例
+- 微信文章主要用于补充体验视角：Lovable 类比、蜂群式多智能体、Skill 复用、可视化修改、多人协作与阿里云整合
+
 ## 2026-04-16: 收录《AGUI 协议：Vercel AI SDK + LangChain 实现流式组件渲染 已付费》
 
 **来源**：用户输入文章（含 Vercel AI SDK Data Stream Protocol、`@ai-sdk/langchain`、NestJS SSE、React `useChat`、Streamdown 与工具组件渲染示例）
