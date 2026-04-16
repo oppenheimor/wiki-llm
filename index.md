@@ -20,6 +20,7 @@
 - [[concepts/claude-identity-verification]] — Claude 平台针对特定能力与安全检查引入的身份验证机制
 - [[concepts/harness-engineering]] — 将 LLM 集成到生产环境的完整基础设施体系（工具链/权限/上下文/安全边界）
 - [[concepts/agent-loop]] — Agent 的最小运行内核：模型在 while 循环中持续决定下一步行动
+- [[concepts/agui-protocol]] — Agent 与图形界面之间传输流式文本、工具调用状态和结构化交互事件的协议层
 - [[concepts/react-pattern]] — Reasoning / Acting / Observation 三段式 Agent 基础范式
 - [[concepts/multi-agent-architecture]] — 将职责拆给多个专职 Agent，通过更纯净上下文、并行处理与互审提高复杂任务表现
 - [[concepts/tokenization]] — 文本进入模型前的离散化过程，是窗口、计费和缓存的共同计量单位
@@ -45,6 +46,7 @@
 - [[products/claude-code-harness-analysis]] — 基于源码泄露快照的 Claude Code 工业级 Harness 架构逆向工程分析
 - [[products/evomap]] — 基于 GEP 协议的 Agent 经验进化平台
 - [[products/langgraph]] — LangChain 生态的图编排框架，用状态图组织 Agent、工具、分支、循环与中断恢复
+- [[products/vercel-ai-sdk]] — 面向 AI 应用的全栈 SDK，提供 Data Stream Protocol 和前端消息消费抽象
 
 ## 模式（patterns）
 
@@ -55,6 +57,7 @@
 - [[patterns/agent-four-layers-2026]] — 2026 初 Agent 生态四层叠乘框架（大脑/手脚/组织/进化）
 - [[patterns/model-native-agent-interface]] — 把内部复杂度翻译成模型熟悉表示，并按需渐进披露工具
 - [[patterns/supervisor-worker]] — 一个主管负责路由和拆任务，多个专职 Worker 负责执行的多 Agent 协作模式
+- [[patterns/tool-aware-streaming-ui]] — 按文本、工具调用、工具结果等不同语义单元流式渲染 Agent UI 的模式
 
 ## 对比（comparisons）
 

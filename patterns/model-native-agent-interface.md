@@ -45,6 +45,8 @@
 - [[concepts/mcp]]
 - [[concepts/constrained-decoding]]
 - [[concepts/harness-engineering]]
+- [[concepts/agui-protocol]]
+- [[patterns/tool-aware-streaming-ui]]
 
 ## 参考来源
 

@@ -1,5 +1,22 @@
 # Wiki 操作日志
 
+## 2026-04-16: 收录《AGUI 协议：Vercel AI SDK + LangChain 实现流式组件渲染 已付费》
+
+**来源**：用户输入文章（含 Vercel AI SDK Data Stream Protocol、`@ai-sdk/langchain`、NestJS SSE、React `useChat`、Streamdown 与工具组件渲染示例）
+**新增页面**：
+- concepts/agui-protocol.md — Agent 与图形界面之间的协议层：把纯文本流升级为可区分文本、tool input、tool output 和状态事件的结构化交互流
+- products/vercel-ai-sdk.md — 面向 AI 应用的全栈 SDK，沉淀其真正长期价值：统一流式协议与前端消息消费抽象，而不只是“又一个调模型包”
+- patterns/tool-aware-streaming-ui.md — 按语义单元而非整段字符串渲染 Agent UI 的模式，强调文本 part 与工具 part 分层处理
+**更新页面**：
+- concepts/agent-loop.md：补充 AGUI / tool-aware-streaming-ui / vercel-ai-sdk 的关联，强调 Agent loop 的“观察轨迹”也需要面向用户可视化
+- concepts/harness-engineering.md：补充 UI 协议层作为 Harness 对外可观测面的组成部分
+- patterns/model-native-agent-interface.md：补充 AGUI 与 tool-aware-streaming-ui 的关联，说明“模型友好接口”与“用户友好交互协议”是两层不同抽象
+- index.md：新增 1 个概念入口、1 个产品入口、1 个模式入口
+**新增交叉引用**：
+- agui-protocol ↔ agent-loop / harness-engineering / constrained-decoding / tool-aware-streaming-ui / vercel-ai-sdk / model-native-agent-interface
+- vercel-ai-sdk ↔ agui-protocol / tool-aware-streaming-ui / agent-loop / harness-engineering / langgraph
+- tool-aware-streaming-ui ↔ agui-protocol / vercel-ai-sdk / agent-loop / harness-engineering / model-native-agent-interface
+
 ## 2026-04-16: 收录《LangGraph 和多 Agent 架构》
 
 **来源**：用户输入文章（含 LangGraph / LangChain / Supervisor-Worker 代码示例）
