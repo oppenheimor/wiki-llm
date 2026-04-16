@@ -1,5 +1,24 @@
 # Wiki 操作日志
 
+## 2026-04-16: 收录《LangGraph 和多 Agent 架构》
+
+**来源**：用户输入文章（含 LangGraph / LangChain / Supervisor-Worker 代码示例）
+**新增页面**：
+- products/langgraph.md — LangChain 生态里的图编排框架，沉淀 StateGraph、条件路由、循环、checkpointer、中断恢复与预构建 agent loop 的长期价值
+- concepts/multi-agent-architecture.md — 多 Agent 架构的上位概念，解释 prompt 拆分、并行处理、多角色互审三类主要收益及其代价
+- patterns/supervisor-worker.md — 最常见的多 Agent 协作模式，一个主管调度多个专职 Worker
+**更新页面**：
+- concepts/agent-loop.md：补充与 multi-agent-architecture / langgraph 的关联
+- concepts/agent-teams.md：补充与 multi-agent-architecture / supervisor-worker 的关联
+- concepts/harness-engineering.md：补充 multi-agent-architecture / supervisor-worker / langgraph 的关联
+- products/learn-claude-code.md：补充与 multi-agent-architecture 的关联
+- patterns/agent-four-layers-2026.md：补充与 multi-agent-architecture / supervisor-worker 的关联
+- index.md：新增 1 个产品入口、1 个概念入口、1 个模式入口
+**新增交叉引用**：
+- langgraph ↔ agent-loop/multi-agent-architecture/supervisor-worker/harness-engineering/subagent/agent-teams
+- multi-agent-architecture ↔ subagent/agent-teams/agent-loop/harness-engineering/supervisor-worker/langgraph
+- supervisor-worker ↔ multi-agent-architecture/subagent/agent-teams/harness-engineering/langgraph
+
 ## 2026-04-15: 收录 3 篇 Agent 文章（OpenClaw 安全 / Notion Custom Agents / Hermes 后续配置）
 
 **来源**：

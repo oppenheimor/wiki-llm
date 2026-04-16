@@ -63,7 +63,9 @@ Agent Teams 配合 Git Worktree 可以做到一件人类团队做不到的事：
 
 - [[patterns/agent-four-layers-2026]]
 - [[concepts/subagent]]
+- [[concepts/multi-agent-architecture]]
 - [[concepts/parallel-subagent-debugging]]
 - [[concepts/a2a-protocol]]
 - [[concepts/harness-engineering]] — Agent Teams 是 Harness 体系中"协调层"的多智能体实现
+- [[patterns/supervisor-worker]] — Supervisor-Worker 是更常见的多智能体入门组织形态
 - [[products/claude-code-harness-analysis]] — 源码层面揭示的 `src/coordinator/` 团队编排实现、6 种协调模式、异步邮箱通信

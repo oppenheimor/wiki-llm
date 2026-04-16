@@ -94,6 +94,7 @@ Agent 从对话框里走出来，获得操作外部世界的能力：
 
 - [[concepts/mcp]]
 - [[concepts/subagent]]
+- [[concepts/multi-agent-architecture]]
 - [[concepts/agent-teams]]
 - [[concepts/a2a-protocol]]
 - [[concepts/gep-protocol]]
@@ -101,5 +102,6 @@ Agent 从对话框里走出来，获得操作外部世界的能力：
 - [[concepts/openclaw]]
 - [[concepts/claude-code-skills]]
 - [[products/evomap]]
+- [[patterns/supervisor-worker]]
 - [[patterns/claude-code-config-layers]]
 - [[concepts/harness-engineering]]

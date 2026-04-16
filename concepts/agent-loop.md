@@ -56,6 +56,8 @@ while (true) {
 - [[concepts/harness-engineering]]
 - [[concepts/mcp]]
 - [[concepts/subagent]]
+- [[concepts/multi-agent-architecture]]
+- [[products/langgraph]]
 - [[products/learn-claude-code]]
 - [[products/claude-code-harness-analysis]]
 - [[comparisons/chatbot-vs-copilot-vs-agent]]

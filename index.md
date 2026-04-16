@@ -21,6 +21,7 @@
 - [[concepts/harness-engineering]] — 将 LLM 集成到生产环境的完整基础设施体系（工具链/权限/上下文/安全边界）
 - [[concepts/agent-loop]] — Agent 的最小运行内核：模型在 while 循环中持续决定下一步行动
 - [[concepts/react-pattern]] — Reasoning / Acting / Observation 三段式 Agent 基础范式
+- [[concepts/multi-agent-architecture]] — 将职责拆给多个专职 Agent，通过更纯净上下文、并行处理与互审提高复杂任务表现
 - [[concepts/tokenization]] — 文本进入模型前的离散化过程，是窗口、计费和缓存的共同计量单位
 - [[concepts/autoregressive-generation]] — 大模型逐 token 生成文本的基本机制，也是流式响应的底层来源
 - [[concepts/kv-cache]] — Transformer 对历史 Key / Value 的缓存机制，决定长上下文的成本与延迟
@@ -43,6 +44,7 @@
 - [[products/learn-claude-code]] — Agent Harness 工程 0→1 教学项目（12 个渐进课程）
 - [[products/claude-code-harness-analysis]] — 基于源码泄露快照的 Claude Code 工业级 Harness 架构逆向工程分析
 - [[products/evomap]] — 基于 GEP 协议的 Agent 经验进化平台
+- [[products/langgraph]] — LangChain 生态的图编排框架，用状态图组织 Agent、工具、分支、循环与中断恢复
 
 ## 模式（patterns）
 
@@ -52,6 +54,7 @@
 - [[patterns/agent-always-on-host]] — 个人 Agent 想持续在线可用，宿主机必须 7×24 稳定运行
 - [[patterns/agent-four-layers-2026]] — 2026 初 Agent 生态四层叠乘框架（大脑/手脚/组织/进化）
 - [[patterns/model-native-agent-interface]] — 把内部复杂度翻译成模型熟悉表示，并按需渐进披露工具
+- [[patterns/supervisor-worker]] — 一个主管负责路由和拆任务，多个专职 Worker 负责执行的多 Agent 协作模式
 
 ## 对比（comparisons）
 
