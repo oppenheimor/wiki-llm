@@ -55,3 +55,4 @@ MCP 把这个 N×M 的胶水代码矩阵压缩成 N + M：服务方实现一次 
 - [[concepts/claude-code-skills]]
 - [[concepts/openclaw]]
 - [[patterns/model-native-agent-interface]]
+- [[products/claude-agent-sdk]]

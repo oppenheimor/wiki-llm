@@ -348,3 +348,19 @@
 **审计备注**：
 - 本文更适合作为“Agent Memory 总论”沉淀到 concepts，而不是机械按 Hermes / OpenClaw 某个具体实现页补丁式更新
 - 页面中的具体论文与项目名主要作为问题框架的参考来源保留；核心沉淀是“记忆不是存档，而是时间中的状态治理”
+
+## 2026-04-16: 收录 Claude Agent SDK 官方文档
+
+**来源**：Anthropic 官方文档（https://code.claude.com/docs/en/agent-sdk/overview；同时查阅 `llms.txt`、migration guide、Claude Code features in the SDK）
+**新增页面**：
+- products/claude-agent-sdk.md — Anthropic 官方 Agent SDK，复用 Claude Code 的工具、agent loop、上下文管理与文件系统配置能力
+**更新页面**：
+- index.md：补充 1 个产品入口（claude-agent-sdk）
+- concepts/agent-loop.md：补充 Claude Agent SDK 交叉引用与官方来源
+- concepts/subagent.md：补充 Claude Agent SDK 交叉引用
+- concepts/mcp.md：补充 Claude Agent SDK 交叉引用
+- concepts/claude-code-skills.md：补充 SDK 通过 `settingSources` / `Skill` 复用 skills 的说明与官方来源
+- products/learn-claude-code.md：补充与 Claude Agent SDK 的关系
+- concepts/claude-to-im.md：补充其开发者 SDK 基于 Agent SDK 的关系
+**新增交叉引用**：
+- claude-agent-sdk ↔ agent-loop/subagent/mcp/claude-code-skills/learn-claude-code/everything-claude-code/claude-to-im

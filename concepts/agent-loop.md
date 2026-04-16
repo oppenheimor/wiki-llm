@@ -62,9 +62,11 @@ while (true) {
 - [[products/vercel-ai-sdk]]
 - [[products/langgraph]]
 - [[products/learn-claude-code]]
+- [[products/claude-agent-sdk]]
 - [[products/claude-code-harness-analysis]]
 - [[comparisons/chatbot-vs-copilot-vs-agent]]
 
 ## 参考文档
 - 用户输入文章《从 ChatBot 到 Agent：一个 while 循环，凭什么让 AI 从"能聊天"变成"能干活"？》（约 21 分钟，2026-04-15 收录）
 - Anthropic《Building Effective Agents》：Workflow 与 Agent 的区分（文中引用）
+- Anthropic 官方文档《How the agent loop works》与《Agent SDK overview》（2026-04-16 查阅）

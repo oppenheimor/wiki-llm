@@ -84,6 +84,7 @@ Claude Code = one agent loop
 - [[concepts/claude-code-routines]] — 云端自动化（s07-s12 的云端版本）
 - [[concepts/claude-code-agents]] — sub-agent 机制（s04 的对应概念）
 - [[concepts/claude-code-skills]] — skill 机制（s05 的对应概念）
+- [[products/claude-agent-sdk]] — 将 Claude Code 能力程序化嵌入应用的官方 SDK
 - [[concepts/hermes-agent]] — 对比：另一个自托管 Agent 框架
 - [[concepts/openclaw]] — Sister repo：从 always-on harness 到IM通道+memory+soul personality
 

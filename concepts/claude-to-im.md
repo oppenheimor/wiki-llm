@@ -49,6 +49,7 @@ npx skills add op7418/Claude-to-IM-skill
 
 - [[concepts/claude-code-routines]] — 同作者的 Claude Code 远程自动化能力
 - [[concepts/mcp]] — 类似的外部服务集成协议
+- [[products/claude-agent-sdk]] — 面向开发者的 Claude-to-IM SDK 基于 Agent SDK 开发
 
 ## 参考来源
 

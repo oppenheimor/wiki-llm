@@ -48,6 +48,7 @@
 - [[products/langgraph]] — LangChain 生态的图编排框架，用状态图组织 Agent、工具、分支、循环与中断恢复
 - [[products/vercel-ai-sdk]] — 面向 AI 应用的全栈 SDK，提供 Data Stream Protocol 和前端消息消费抽象
 - [[products/meoo]] — 阿里推出的 AI 应用生成产品，用自然语言和预置工作流快速生成网页与应用原型
+- [[products/claude-agent-sdk]] — Anthropic 官方 Agent 开发 SDK，把 Claude Code 的运行时能力开放为 Python / TypeScript 库
 
 ## 模式（patterns）
 
