@@ -21,6 +21,7 @@
 - [[concepts/tool-execution-pipeline]] — 把模型不可信的工具调用意图，经验证、Hook、权限和结果整形，转化为可控执行的分层管线
 - [[concepts/claude-identity-verification]] — Claude 平台针对特定能力与安全检查引入的身份验证机制
 - [[concepts/harness-engineering]] — 将 LLM 集成到生产环境的完整基础设施体系（工具链/权限/上下文/安全边界）
+- [[concepts/engineering-sense]] — Agent 时代的工程判断力：本质不是执行，而是对优先级、克制与“不做什么”的排序能力
 - [[concepts/agent-loop]] — Agent 的最小运行内核：模型在 while 循环中持续决定下一步行动
 - [[concepts/agui-protocol]] — Agent 与图形界面之间传输流式文本、工具调用状态和结构化交互事件的协议层
 - [[concepts/react-pattern]] — Reasoning / Acting / Observation 三段式 Agent 基础范式
@@ -28,6 +29,7 @@
 - [[concepts/tokenization]] — 文本进入模型前的离散化过程，是窗口、计费和缓存的共同计量单位
 - [[concepts/autoregressive-generation]] — 大模型逐 token 生成文本的基本机制，也是流式响应的底层来源
 - [[concepts/kv-cache]] — Transformer 对历史 Key / Value 的缓存机制，决定长上下文的成本与延迟
+- [[concepts/token-efficiency]] — 用更少 token 完成同等质量任务的能力，是 Agent 系统规模化与竞争力的核心约束
 - [[concepts/constrained-decoding]] — 通过限制可选 token 保证结构化输出和工具调用合法性的解码技术
 - [[concepts/mcp]] — Model Context Protocol，Agent 连接工具/数据的统一接入协议
 - [[concepts/a2a-protocol]] — Google 主导的跨厂商 Agent-to-Agent 通信协议
@@ -60,6 +62,9 @@
 - [[patterns/agent-always-on-host]] — 个人 Agent 想持续在线可用，宿主机必须 7×24 稳定运行
 - [[patterns/agent-four-layers-2026]] — 2026 初 Agent 生态四层叠乘框架（大脑/手脚/组织/进化）
 - [[patterns/model-native-agent-interface]] — 把内部复杂度翻译成模型熟悉表示，并按需渐进披露工具
+- [[patterns/benchmark-first-agent-development]] — Agent 开发先做评估框架，再做功能和优化，用度量约束感觉驱动的迭代
+- [[patterns/prompt-as-system-design]] — Prompt 不是随手指令，而是把模块边界、抽象粒度和变化预期编码成系统设计
+- [[patterns/repo-native-expert-routing]] — Repo 内文档作唯一事实源，配合结构化路由表激活对应 expert agent 的多 Agent 模式
 - [[patterns/supervisor-worker]] — 一个主管负责路由和拆任务，多个专职 Worker 负责执行的多 Agent 协作模式
 - [[patterns/tool-aware-streaming-ui]] — 按文本、工具调用、工具结果等不同语义单元流式渲染 Agent UI 的模式
 

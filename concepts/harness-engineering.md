@@ -8,6 +8,7 @@
 - **按需学习与知识分级**：技能与上下文按需加载，利用三层压缩（对话→摘要→持久化）管理有限窗口。
 - **多智能体编排**：Team Lead + 持续存在的 Teammate 协同，通过 Git 锁与 Worktree 实现并行探索与冲突避免。
 - **可编程的触发与调度**：支持定时、API、事件驱动三种触发模式，将一次性任务转化为可观测、可重放的流程。
+- **本质仍是老工程问题的 AI 语境重述**：工具选择、信息注入、错误拦截、跨会话记忆和运行环境设计，并不会因为名字从 prompt/context 变成 harness 就自动变成一门新学科。
 
 ## 详细说明
 ### 模型即能力，Harness 即环境
@@ -23,6 +24,9 @@
 ### 上下文与记忆工程
 - **三层压缩**：对话级 → 摘要级 → 持久化（memdir/tasks），确保长周期任务可恢复且不耗尽窗口。
 - **子智能体独立上下文**：通过 `AgentTool` 创建的 sub-agent 拥有独立 `messages[]`，主会话仅接收结果摘要，防止噪音污染。
+
+### 它不是新瓶装出来的新学问
+很多所谓的 prompt engineering、context engineering、harness engineering，讨论的其实都是同一类问题：怎样给模型提供正确的信息、工具和边界，让它在失败时可控、在跨会话时可恢复。用户提供截图文章《Agent 时代，工程师最值钱的能力是说“不”》强调，真正稀缺的不是为这些事起新名字，而是把传统软件工程里的关注点分离、文档治理、约束前移、评估先行，扎实落到 Agent 工作环境里。
 
 ### 多智能体协调模式
 支持 Pipeline、Fan-out/Fan-in、Expert Pool、Producer-Reviewer、Supervisor、Hierarchical Delegation 六种模式，通信载体包括异步邮箱、共享任务列表与事件总线。
@@ -41,11 +45,16 @@
 - [[concepts/multi-agent-architecture]]
 - [[concepts/agent-teams]]
 - [[concepts/subagent]]
+- [[concepts/engineering-sense]]
+- [[concepts/token-efficiency]]
 - [[patterns/tool-aware-streaming-ui]]
 - [[concepts/tool-execution-pipeline]]
 - [[patterns/supervisor-worker]]
 - [[patterns/claude-code-config-layers]]
 - [[patterns/agent-four-layers-2026]]
+- [[patterns/benchmark-first-agent-development]]
+- [[patterns/prompt-as-system-design]]
+- [[patterns/repo-native-expert-routing]]
 - [[products/everything-claude-code]]
 - [[products/vercel-ai-sdk]]
 - [[products/langgraph]]
@@ -58,3 +67,4 @@
 - 微信文章《刚刚！Claude Code 推出 Routines》：https://mp.weixin.qq.com/s/fjGd3mBJ2cHnR7Ctmx7vmA
 - 微信文章《Harness Engineering 实战：harness的最佳理解方式》：https://mp.weixin.qq.com/s/zafqdw8m5tYY8E49x-vf9g
 - 用户输入文章《一次工具调用背后经历了什么？以 Claude Code 为例展开聊聊》（2026-04-17 收录）
+- 用户提供截图文章《Agent 时代，工程师最值钱的能力是说“不”》（2026-04-17 收录）

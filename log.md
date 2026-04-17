@@ -398,3 +398,24 @@
 - concepts/claude-to-im.md：补充其开发者 SDK 基于 Agent SDK 的关系
 **新增交叉引用**：
 - claude-agent-sdk ↔ agent-loop/subagent/mcp/claude-code-skills/learn-claude-code/everything-claude-code/claude-to-im
+
+## 2026-04-17: 收录《Agent 时代，工程师最值钱的能力是说“不”》
+
+**来源**：用户提供截图文章《Agent 时代，工程师最值钱的能力是说“不”》（手动 OCR 整理）
+**新增页面**：
+- concepts/engineering-sense.md — Agent 时代工程判断力的上位概念：排序、克制与明确说“不”的能力
+- concepts/token-efficiency.md — 同等质量下用更少 token 完成任务的能力，是 Agent 系统规模化的核心约束
+- patterns/benchmark-first-agent-development.md — 先搭 benchmark 再谈功能和优化的 Agent 开发模式
+- patterns/prompt-as-system-design.md — prompt 作为系统设计承载物，而不只是下命令文本
+- patterns/repo-native-expert-routing.md — repo 内知识作为唯一事实源，配合结构化路由表激活专家 Agent
+**更新页面**：
+- index.md：补充 2 个新概念入口与 3 个新模式入口
+- concepts/harness-engineering.md：补充“harness 不是新瓶装出的新学问”视角，以及与 benchmark / prompt / expert routing 的交叉引用
+- concepts/kv-cache.md：补充 Agent 请求模式如何破坏 prefix / KV cache 复用，以及与 token-efficiency 的关联
+- concepts/multi-agent-architecture.md：补充 repo-native expert routing 的实践视角及关联页面
+**新增交叉引用**：
+- engineering-sense ↔ benchmark-first-agent-development/prompt-as-system-design/token-efficiency/harness-engineering/multi-agent-architecture/kv-cache
+- token-efficiency ↔ tokenization/kv-cache/harness-engineering/benchmark-first-agent-development/prompt-as-system-design
+- benchmark-first-agent-development ↔ engineering-sense/token-efficiency/prompt-as-system-design/harness-engineering
+- prompt-as-system-design ↔ engineering-sense/benchmark-first-agent-development/harness-engineering/multi-agent-architecture
+- repo-native-expert-routing ↔ multi-agent-architecture/subagent/supervisor-worker/harness-engineering

@@ -34,6 +34,9 @@
 
 所以多 Agent 更准确的理解是：**用编排复杂度换执行质量、并行性和上下文清洁度。**
 
+### 真正难的是知识治理与路由，不是把 Agent 数量堆起来
+用户提供截图文章《Agent 时代，工程师最值钱的能力是说“不”》补充了一个非常实战的视角：多 Agent 的门槛往往不在“写一个 debating 或 supervisor 机制”，而在如何让 expert 的知识来源稳定、边界清晰、激活规则可维护。相比“让 Manager 猜谁该被叫醒”，把 repo 内 markdown 作为唯一事实源，并用结构化 Expert Routing Table 来决定激活哪些子域 expert，通常更可靠，也更省上下文。
+
 ## 上下文
 
 该概念是理解 [[concepts/subagent]]、[[concepts/agent-teams]]、[[patterns/supervisor-worker]] 与 [[products/langgraph]] 的上位框架。很多 Agent 产品从单一 loop 演进到团队协作，本质上都是在解决“一个上下文装不下所有职责”这个问题。
@@ -44,9 +47,12 @@
 - [[concepts/agent-teams]]
 - [[concepts/agent-loop]]
 - [[concepts/harness-engineering]]
+- [[concepts/engineering-sense]]
 - [[patterns/supervisor-worker]]
+- [[patterns/repo-native-expert-routing]]
 - [[products/langgraph]]
 
 ## 参考文档
 
 - 用户输入文章《LangGraph 和多 Agent 架构》（2026-04-16 收录）：总结多 Agent 的三类收益，包括 prompt 拆分、并行思考与多角色纠错
+- 用户提供截图文章《Agent 时代，工程师最值钱的能力是说“不”》（2026-04-17 收录）
