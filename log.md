@@ -1,5 +1,22 @@
 # Wiki 操作日志
 
+## 2026-04-17: 收录《从Vibe Coding到Agentic Engineering：重构后台开发全流程》
+
+**来源**：https://mp.weixin.qq.com/s/pr8oQ9wEC7Oa1NvvW89j6w （腾讯技术工程，作者署名 seanguo，微信公众号，2026-04-17，CDP 抓取）
+**新增页面**：
+- `concepts/agentic-engineering.md`
+- `comparisons/vibercoding-vs-agentic-engineering.md`
+**更新页面**：
+- `concepts/vibercoding.md`
+- `index.md`
+**新增交叉引用**：
+- agentic-engineering ↔ vibercoding / harness-engineering / engineering-sense / claude-code-skills / mcp / agent-workflow-calibration / superpowers
+- vibercoding ↔ agentic-engineering / vibercoding-vs-agentic-engineering
+
+**补充说明**：
+- 这篇文章最值得沉淀的不是某个私有 Skill 名称，而是“AI 从快速生成走向流程化工程执行”的范式迁移。
+- 文章用后台交付链路把 Skill / Command / MCP 的分层关系讲得很清楚，适合作为 [[concepts/agentic-engineering]] 的中文案例来源。
+
 ## 2026-04-17: 收录 Agent 流程校准经验
 
 **来源**：本机实际评审与重写 `enterprise-ai-survey/AGENTS.md` 的流程段落（围绕 OpenSpec 适用范围、Agent Teams 与 git worktree 的搭配、测试基线与 e2e 加码条件、review blocker 分级、archive 时序）

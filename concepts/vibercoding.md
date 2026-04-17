@@ -23,13 +23,22 @@
 | 代码掌控 | 低（AI 生成） | 高（手写） |
 | 适合场景 | 快速原型、直观验收成果 | 精确控制、复杂底层逻辑 |
 
+## 与 Agentic Engineering 的差异
+
+微信公众号文章《从Vibe Coding到Agentic Engineering：重构后台开发全流程》给这个概念补了一个重要边界：Vibercoding 擅长把“我想要什么”快速变成能看的结果，但一旦进入生产交付，就会暴露出代码质量、审查流程和可维护性不足的问题。
+
+相对地，[[concepts/agentic-engineering]] 关心的是把 AI 放进完整工程链路里，让它先澄清需求、再出计划、再执行、再验证，而不是一次性生成后靠运气通过。也就是说，Vibercoding 更像高反馈原型范式，Agentic Engineering 更像面向生产的流程范式。
+
 ## 关联页面
 
 - [[concepts/rag-knowledge-base]] — AI 辅助的信息检索与知识管理
 - [[concepts/parallel-subagent-debugging]] — AI 并行调试模式
+- [[concepts/agentic-engineering]] — 以结构化工程流程约束 AI 执行的生产开发范式
 - [[products/meoo]] — 面向中文语境的 AI 应用生成产品，文章把它当作 Vibecoding 的高反馈载体
+- [[comparisons/vibercoding-vs-agentic-engineering]] — 快速生成范式与流程化交付范式的对比
 
 ## 参考文档
 
 - 《我是这么用 AI 的》：微信公众号（2026-04-13）
 - 《阿里下场做了中国版的 Lovable，好用到炸。》：AI产品阿颖，微信公众号（2026-04-16）
+- 微信公众号《从Vibe Coding到Agentic Engineering：重构后台开发全流程》（腾讯技术工程，作者署名 seanguo，2026-04-17，CDP 抓取）

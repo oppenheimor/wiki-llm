@@ -23,6 +23,7 @@
 - [[concepts/claude-identity-verification]] — Claude 平台针对特定能力与安全检查引入的身份验证机制
 - [[concepts/harness-engineering]] — 将 LLM 集成到生产环境的完整基础设施体系（工具链/权限/上下文/安全边界）
 - [[concepts/engineering-sense]] — Agent 时代的工程判断力：本质不是执行，而是对优先级、克制与“不做什么”的排序能力
+- [[concepts/agentic-engineering]] — 把 AI 放进结构化软件工程流程中运行的开发范式
 - [[concepts/agent-loop]] — Agent 的最小运行内核：模型在 while 循环中持续决定下一步行动
 - [[concepts/agui-protocol]] — Agent 与图形界面之间传输流式文本、工具调用状态和结构化交互事件的协议层
 - [[concepts/react-pattern]] — Reasoning / Acting / Observation 三段式 Agent 基础范式
@@ -79,3 +80,4 @@
 
 - [[comparisons/hermes-agent-vs-openclaw]] — 两大自托管AI智能体框架的完整对比
 - [[comparisons/chatbot-vs-copilot-vs-agent]] — 三种 AI 交互形态的控制权与自主性差异
+- [[comparisons/vibercoding-vs-agentic-engineering]] — 快速生成范式与流程化交付范式的差异
