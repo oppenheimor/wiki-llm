@@ -1,5 +1,23 @@
 # Wiki 操作日志
 
+## 2026-04-17: 收录《程序员必备的 Design Skills，不要让 UI 成为产品短板》
+
+**来源**：https://mp.weixin.qq.com/s/BkReBmLwipxyYNfU-UmyHw （壹零笔记，微信公众号，2026-03-17，2026-04-17 通过 CDP 抓取）
+**新增页面**：
+- `products/ui-ux-pro-max.md`
+- `patterns/design-skill-layering.md`
+**更新页面**：
+- `concepts/claude-code-skills.md`
+- `index.md`
+**新增交叉引用**：
+- ui-ux-pro-max ↔ claude-code-skills / skill-system / design-skill-layering / same-content-style-wall-screening
+- design-skill-layering ↔ claude-code-skills / skill-system / ui-ux-pro-max / superpowers / same-content-style-wall-screening
+- claude-code-skills ↔ ui-ux-pro-max / design-skill-layering
+
+**补充说明**：
+- 这篇文章最值得沉淀的不是把每个 skill 名称机械建档，而是把“设计能力要按阶段分层组合”抽象成一个更稳定的模式。
+- 文中出现的多个 skill 名称里，本机已可验证的实体主要是 `ui-ux-pro-max` 与 `web-design-guidelines`；因此本次优先为前者建产品页，并把后者作为模式参考来源之一。
+
 ## 2026-04-17: 收录《从Vibe Coding到Agentic Engineering：重构后台开发全流程》
 
 **来源**：https://mp.weixin.qq.com/s/pr8oQ9wEC7Oa1NvvW89j6w （腾讯技术工程，作者署名 seanguo，微信公众号，2026-04-17，CDP 抓取）

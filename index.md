@@ -59,6 +59,7 @@
 - [[products/gstack]] — 面向编码 Agent 的执行型技能工具箱，封装浏览器、QA、发布与护栏动作
 - [[products/claude-managed-agents]] — Anthropic 托管式云端 Agent 运行平台，以 Agent/Environment/Session/Events 组织 hosted harness
 - [[products/skillforge]] — 阿里云提出的垂直领域 Agent Skills 自进化框架
+- [[products/ui-ux-pro-max]] — 面向 UI/UX 任务的设计智能 skill，把风格与实现建议组织成可检索知识库
 
 ## 模式（patterns）
 
@@ -75,6 +76,7 @@
 - [[patterns/supervisor-worker]] — 一个主管负责路由和拆任务，多个专职 Worker 负责执行的多 Agent 协作模式
 - [[patterns/agent-workflow-calibration]] — Agent 流程要按风险节点校准，而不是把所有好习惯写成僵硬命令链
 - [[patterns/tool-aware-streaming-ui]] — 按文本、工具调用、工具结果等不同语义单元流式渲染 Agent UI 的模式
+- [[patterns/design-skill-layering]] — 按生成、整理、还原、系统化四层来组合设计能力的 skill 使用模式
 
 ## 对比（comparisons）
 
