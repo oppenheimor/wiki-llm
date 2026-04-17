@@ -1,5 +1,18 @@
 # Wiki 操作日志
 
+## 2026-04-17: 收录《Configure your effort level》
+
+**来源**：用户输入短文（内容包括 Opus 4.7 使用 adaptive thinking 取代 thinking budgets、通过 `/effort` 调整 `effort`、`max` 仅对当前 session 生效、其他档位会跨 session 持久）
+**新增页面**：
+- concepts/reasoning-effort.md — 把 thinking budget 的底层资源调参抽象为更高层的“推理强度”配置概念
+**更新页面**：
+- index.md：新增 1 个 concept 入口（reasoning-effort）
+**新增交叉引用**：
+- reasoning-effort ↔ agent-loop / tokenization / claude-code-rules / claude-agent-sdk
+**审计备注**：
+- 本次材料信息量较短，稳定知识焦点是“effort 作为 thinking budget 的产品化替代抽象”，而不是具体推荐使用哪一档
+- Wiki 里暂未发现现成页面专门承接 Claude / Anthropic 语境下的推理强度配置，因此新建概念页比硬塞进现有条目更干净
+
 ## 2026-04-17: 收录《一次工具调用背后经历了什么？以 Claude Code 为例展开聊聊》
 
 **来源**：用户输入文章（主题涵盖 Function Calling 之后的工具执行管线、Zod schema 校验、业务校验、输入补全与缓存、PreToolUse/PostToolUse Hook、权限分层、结果截断、面向模型的错误设计、OpenClaw 事件驱动、OpenCode Batch Tool）

@@ -17,6 +17,7 @@
 - [[concepts/claude-code-agents]] — Claude Code 配置的四层架构之代理层（47 个 sub-agent）
 - [[concepts/claude-code-routines]] — Claude Code 云端自动化运行功能（定时/API/GitHub触发）
 - [[concepts/claude-code-desktop]] — Claude Code 桌面端多会话并行重设计（含集成开发工具面板）
+- [[concepts/reasoning-effort]] — 用 `effort` 统一调节模型推理深度、速度和 token 消耗的配置层
 - [[concepts/tool-execution-pipeline]] — 把模型不可信的工具调用意图，经验证、Hook、权限和结果整形，转化为可控执行的分层管线
 - [[concepts/claude-identity-verification]] — Claude 平台针对特定能力与安全检查引入的身份验证机制
 - [[concepts/harness-engineering]] — 将 LLM 集成到生产环境的完整基础设施体系（工具链/权限/上下文/安全边界）
