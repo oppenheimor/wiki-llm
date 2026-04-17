@@ -1,5 +1,24 @@
 # Wiki 操作日志
 
+## 2026-04-17: 收录 Agent 流程校准经验
+
+**来源**：本机实际评审与重写 `enterprise-ai-survey/AGENTS.md` 的流程段落（围绕 OpenSpec 适用范围、Agent Teams 与 git worktree 的搭配、测试基线与 e2e 加码条件、review blocker 分级、archive 时序）
+**新增页面**：
+- patterns/agent-workflow-calibration.md — Agent 工作流要按风险节点校准，而不是把所有工程纪律写成一条僵硬口号链
+**更新页面**：
+- concepts/harness-engineering.md：补入流程校准模式，强调 Harness 约束的目标是可控执行而不是形式主义
+- concepts/agent-teams.md：补入流程校准模式，强调多智能体协作、工作区隔离与验证回收是三层不同问题
+- products/superpowers.md：补入流程校准模式，强调“强制流程化”不等于对所有任务一刀切
+- index.md：新增 1 个 pattern 入口（agent-workflow-calibration）
+**新增交叉引用**：
+- agent-workflow-calibration ↔ harness-engineering / agent-teams / superpowers / llm-coding-discipline / supervisor-worker
+- harness-engineering ↔ agent-workflow-calibration
+- agent-teams ↔ agent-workflow-calibration
+- superpowers ↔ agent-workflow-calibration
+**审计备注**：
+- 本次沉淀的核心不是“再发明一个流程框架”，而是把流程文档常见失败模式抽象成一个上位模式：区分适用条件、隔离策略、验证基线和完成定义
+- 最重要的经验是：好的流程写法应该把风险控制前移，但不能把所有好习惯硬编码成统一阻塞链
+
 ## 2026-04-17: 收录 5 篇 Agent 文章（Harness / Context / Skills / Managed Agents / SkillForge）
 
 **来源**：

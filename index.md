@@ -71,6 +71,7 @@
 - [[patterns/prompt-as-system-design]] — Prompt 不是随手指令，而是把模块边界、抽象粒度和变化预期编码成系统设计
 - [[patterns/repo-native-expert-routing]] — Repo 内文档作唯一事实源，配合结构化路由表激活对应 expert agent 的多 Agent 模式
 - [[patterns/supervisor-worker]] — 一个主管负责路由和拆任务，多个专职 Worker 负责执行的多 Agent 协作模式
+- [[patterns/agent-workflow-calibration]] — Agent 流程要按风险节点校准，而不是把所有好习惯写成僵硬命令链
 - [[patterns/tool-aware-streaming-ui]] — 按文本、工具调用、工具结果等不同语义单元流式渲染 Agent UI 的模式
 
 ## 对比（comparisons）

@@ -62,6 +62,7 @@
 - [[patterns/benchmark-first-agent-development]]
 - [[patterns/prompt-as-system-design]]
 - [[patterns/repo-native-expert-routing]]
+- [[patterns/agent-workflow-calibration]]
 - [[products/everything-claude-code]]
 - [[products/vercel-ai-sdk]]
 - [[products/superpowers]]
