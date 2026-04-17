@@ -472,3 +472,22 @@
 - benchmark-first-agent-development ↔ engineering-sense/token-efficiency/prompt-as-system-design/harness-engineering
 - prompt-as-system-design ↔ engineering-sense/benchmark-first-agent-development/harness-engineering/multi-agent-architecture
 - repo-native-expert-routing ↔ multi-agent-architecture/subagent/supervisor-worker/harness-engineering
+
+## 2026-04-17: 收录同内容样品墙筛选经验
+
+**来源**：本机 `enterprise-ai-survey` 项目中围绕 `skills/meoo-ui-design` 风格库做的静态样品墙实践；实现文件包括 `app/style-wall/page.tsx`、`components/style-wall/style-wall-gallery.tsx`、`lib/style-wall.ts`，设计记录见 `docs/plans/2026-04-17-style-wall-showcase-design.md`
+**新增页面**：
+- patterns/same-content-style-wall-screening.md — 在 UI 风格决策前，用同一内容骨架生成多种静态样品并单页横向对比，先筛方向再深入实现
+**更新页面**：
+- index.md：补充 1 个新 pattern 入口（same-content-style-wall-screening）
+- patterns/benchmark-first-agent-development.md：补充与“同内容样品墙筛选”模式的交叉引用
+- patterns/prompt-as-system-design.md：补充与“同内容样品墙筛选”模式的交叉引用
+- concepts/engineering-sense.md：补充与“同内容样品墙筛选”模式的交叉引用
+**新增交叉引用**：
+- same-content-style-wall-screening ↔ benchmark-first-agent-development / prompt-as-system-design / engineering-sense
+- benchmark-first-agent-development ↔ same-content-style-wall-screening
+- prompt-as-system-design ↔ same-content-style-wall-screening
+- engineering-sense ↔ same-content-style-wall-screening
+**审计备注**：
+- 这次沉淀的重点不是“做一个 demo 页面”，而是把 UI 风格选择前移成一个有比较框架的筛选步骤
+- 真正可复用的部分是：固定内容骨架，只放大视觉变量，让风格讨论不被结构和交互噪声污染

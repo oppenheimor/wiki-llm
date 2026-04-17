@@ -26,6 +26,7 @@
 - [[patterns/benchmark-first-agent-development]]
 - [[concepts/harness-engineering]]
 - [[concepts/multi-agent-architecture]]
+- [[patterns/same-content-style-wall-screening]]
 
 ## 参考来源
 - 用户提供截图文章《Agent 时代，工程师最值钱的能力是说“不”》（2026-04-17 收录）

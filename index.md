@@ -68,6 +68,7 @@
 - [[patterns/agent-four-layers-2026]] — 2026 初 Agent 生态四层叠乘框架（大脑/手脚/组织/进化）
 - [[patterns/model-native-agent-interface]] — 把内部复杂度翻译成模型熟悉表示，并按需渐进披露工具
 - [[patterns/benchmark-first-agent-development]] — Agent 开发先做评估框架，再做功能和优化，用度量约束感觉驱动的迭代
+- [[patterns/same-content-style-wall-screening]] — 用同一内容骨架生成多种静态样品并单页横向对比，先筛 UI 风格方向再深入实现
 - [[patterns/prompt-as-system-design]] — Prompt 不是随手指令，而是把模块边界、抽象粒度和变化预期编码成系统设计
 - [[patterns/repo-native-expert-routing]] — Repo 内文档作唯一事实源，配合结构化路由表激活对应 expert agent 的多 Agent 模式
 - [[patterns/supervisor-worker]] — 一个主管负责路由和拆任务，多个专职 Worker 负责执行的多 Agent 协作模式

@@ -19,6 +19,7 @@
 ## 关联页面
 - [[patterns/benchmark-first-agent-development]]
 - [[patterns/prompt-as-system-design]]
+- [[patterns/same-content-style-wall-screening]]
 - [[concepts/token-efficiency]]
 - [[concepts/harness-engineering]]
 - [[concepts/multi-agent-architecture]]
