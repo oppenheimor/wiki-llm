@@ -53,6 +53,8 @@ Claude Code = 单循环 + Harness
 
 工具输出过长时，Claude Code 不会无脑把完整结果塞回对话历史，而是用结果预算和落盘引用保护上下文窗口。这说明工具系统不仅是执行层，也是 token 经济和缓存命中率管理的一部分。
 
+用户输入文章《Claude Code 上下文管理机制》补充了更细的阈值与布局视角：单个工具结果超过 5 万字符、或一轮并行工具结果合计超过 20 万字符时，Claude Code 会把完整输出持久化到磁盘，只在上下文里保留短预览与文件路径。这让“工具结果落盘”从经验描述上升为明确的运行时策略。
+
 ### 工具清单（按层次分类）
 
 | 层次 | 工具 | 说明 |
@@ -71,6 +73,9 @@ Claude Code = 单循环 + Harness
 1. **子智能体独立上下文**：Sub-agent 的 `messages[]` 不污染主会话，只返回结果摘要
 2. **自动对话压缩（compact service）**：接近窗口限制时将早期对话压缩为摘要，保留关键决策
 3. **持久化（memdir + tasks）**：任务状态写入磁盘，`/resume` 可跨会话恢复
+
+### Prompt Cache 是压缩策略的隐含上位约束
+《Claude Code 上下文管理机制》指出，Claude Code 会把 system prompt 静态部分与工具定义组织成可缓存前缀，再把工作目录、日期、`CLAUDE.md`、消息历史和 attachments 放入动态区。这样设计的关键不是“分层好看”，而是避免压缩与动态更新打烂缓存前缀。
 
 ## 多智能体协调：六种架构模式
 
@@ -120,6 +125,7 @@ Claude Code = 单循环 + Harness
 - [[concepts/tokenization]] — 长上下文和 Token 计数的底层计量单位
 - [[concepts/autoregressive-generation]] — 流式响应与工具参数碎片化输出的生成机制
 - [[concepts/kv-cache]] — 长上下文下延迟与成本优化的关键缓存机制
+- [[concepts/prompt-cache]] — 请求前缀缓存对上下文布局与压缩策略形成直接约束
 - [[concepts/constrained-decoding]] — 结构化输出与工具调用可靠性的解码约束基础
 - [[concepts/agent-teams]] — 多智能体协调机制
 - [[concepts/subagent]] — 子智能体生成机制
@@ -135,3 +141,4 @@ Claude Code = 单循环 + Harness
 - 源码快照来源：https://github.com/instructkr/claude-code（原始 npm 发布包 source map 泄露）
 - 教学项目：https://github.com/shareAI-lab/learn-claude-code
 - 用户输入文章《一次工具调用背后经历了什么？以 Claude Code 为例展开聊聊》（2026-04-17 收录）
+- 用户输入文章《Claude Code 上下文管理机制》（2026-04-17 收录）

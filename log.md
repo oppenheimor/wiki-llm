@@ -1,5 +1,39 @@
 # Wiki 操作日志
 
+## 2026-04-17: 收录 5 篇 Agent 文章（Harness / Context / Skills / Managed Agents / SkillForge）
+
+**来源**：
+- https://mp.weixin.qq.com/s/junA24jW10KXQEDUdCcCKA （寒日，微信公众号，2026-04-13，CDP 抓取）
+- https://mp.weixin.qq.com/s/kpiOa4oacxTzWj1rhXgnHQ （晨思片刻，作者署名 技术分享，微信公众号，2026-04-04，CDP 抓取）
+- https://mp.weixin.qq.com/s/PGoyLb32J5nSLCmXt9XoJg （刷屏AI，作者署名 飞哥，微信公众号，2026-04-10，CDP 抓取）
+- https://mp.weixin.qq.com/s/A_ksLCNmIL4lXLcZeVSPsQ （技术极简主义，作者署名 兔兔AGI，微信公众号，2026-04-15，CDP 抓取）
+- https://mp.weixin.qq.com/s/By3zvI4H8Il58iOK4e7ONg （AI应用研究Lab，作者署名 Leon，微信公众号，2026-04-15，CDP 抓取）
+- https://github.com/obra/superpowers （GitHub README，2026-04-17 查阅）
+- https://github.com/garrytan/gstack （GitHub README，2026-04-17 查阅）
+**新增页面**：
+- concepts/prompt-cache.md — 把“稳定前缀缓存”从 Claude Code 具体实现上升为通用 Agent 运行时概念
+- products/superpowers.md — 面向编程 Agent 的方法论型 skill 体系
+- products/gstack.md — 面向编码 Agent 的执行型 slash-command 工具箱
+- products/claude-managed-agents.md — Anthropic 托管式 hosted harness 平台
+- products/skillforge.md — 企业级 Agent Skills 自进化框架
+**更新页面**：
+- concepts/harness-engineering.md：补充 prompt cache 约束与 Harness as a Service / hosted harness 的产品化路径
+- concepts/claude-code-skills.md：补充“方法论层 vs 执行层” skills 组织方式，以及企业场景里的 skill 生命周期视角
+- products/claude-code-harness-analysis.md：补充 Claude Code 上下文拼装、结果落盘阈值和 prompt cache 作为上位约束
+- products/claude-agent-sdk.md：补充与 Claude Managed Agents 的边界对照
+- index.md：新增 1 个 concept 入口与 4 个 product 入口
+**新增交叉引用**：
+- prompt-cache ↔ kv-cache / token-efficiency / harness-engineering / claude-code-harness-analysis / claude-agent-sdk / claude-managed-agents
+- superpowers ↔ claude-code-skills / skill-system / harness-engineering / llm-coding-discipline / gstack
+- gstack ↔ claude-code-skills / harness-engineering / tool-aware-streaming-ui / superpowers
+- claude-managed-agents ↔ harness-engineering / agent-loop / mcp / multi-agent-architecture / prompt-cache / claude-agent-sdk
+- skillforge ↔ claude-code-skills / skill-system / harness-engineering / agent-memory / rag-knowledge-base
+**审计备注**：
+- `Harness Engineering 完全指南` 与 `Claude Code 上下文管理机制` 的稳定价值不在“又一篇教程”，而在于把上下文布局、缓存边界和结果落盘从使用经验提升为可复用的运行时设计知识
+- `superpowers + gstack` 文最值得沉淀的是“方法论层 / 执行层”分工，而不是逐条安装命令；产品页已用 GitHub README 做一手校验
+- `Claude Managed Agents` 当前在本地 Anthropic 文档索引中未直接检索到专门条目，页面先按文章中较稳定的四原语与 hosted harness 定位沉淀，后续若补到官方专门文档可再增强
+- SkillForge 暂以“企业级 skill 自进化框架”收录；若后续拿到论文原文或官方项目页，适合继续补实验设计与更严格的一手来源
+
 ## 2026-04-17: 收录《Configure your effort level》
 
 **来源**：用户输入短文（内容包括 Opus 4.7 使用 adaptive thinking 取代 thinking budgets、通过 `/effort` 调整 `effort`、`max` 仅对当前 session 生效、其他档位会跨 session 持久）

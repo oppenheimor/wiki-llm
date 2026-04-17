@@ -35,6 +35,7 @@
 
 - **相对 Anthropic Client SDK**：Client SDK 只给模型 API；Claude Agent SDK 直接内建工具执行与 Agent loop。
 - **相对 Claude Code CLI**：两者能力底座相同，但 CLI 面向交互式开发，SDK 面向自动化、集成和产品化嵌入。
+- **相对 Claude Managed Agents**：Agent SDK 仍由开发者自己决定运行环境与基础设施边界；Managed Agents 则把环境、会话和事件流一起托管掉，更接近 hosted harness。
 - **相对 Claude Code SDK**：Claude Code SDK 是旧名称；该 SDK 已重命名为 Claude Agent SDK，并调整了默认 system prompt 与 settings 加载行为。
 
 ## 关联页面
@@ -47,6 +48,8 @@
 - [[products/learn-claude-code]] — 以 Claude Code Harness 为教学对象的 0→1 教程
 - [[products/everything-claude-code]] — 文件系统配置资产可迁移到 SDK
 - [[concepts/claude-to-im]] — 该工具集的开发者 SDK 场景直接依赖 Agent SDK
+- [[products/claude-managed-agents]] — Anthropic 托管式 hosted harness 形态
+- [[concepts/prompt-cache]] — SDK 同样受稳定前缀与缓存命中约束
 
 ## 参考来源
 
@@ -54,3 +57,4 @@
 - 官方文档（migration-guide）：https://code.claude.com/docs/en/agent-sdk/migration-guide
 - 官方文档（claude-code-features）：https://code.claude.com/docs/en/agent-sdk/claude-code-features
 - 官方文档索引（llms.txt）：https://code.claude.com/docs/llms.txt
+- 用户输入文章《Anthropic 官方 Agent Harness 平台：Claude Managed Agents 完整指南》（2026-04-17 收录）
