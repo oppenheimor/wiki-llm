@@ -1,5 +1,26 @@
 # Wiki 操作日志
 
+## 2026-04-17: 收录《一次工具调用背后经历了什么？以 Claude Code 为例展开聊聊》
+
+**来源**：用户输入文章（主题涵盖 Function Calling 之后的工具执行管线、Zod schema 校验、业务校验、输入补全与缓存、PreToolUse/PostToolUse Hook、权限分层、结果截断、面向模型的错误设计、OpenClaw 事件驱动、OpenCode Batch Tool）
+**新增页面**：
+- concepts/tool-execution-pipeline.md — 将“模型输出工具 JSON 不可信”抽象为一条可复用的工程概念：验证、校准、Hook、授权、执行、结果整形
+**更新页面**：
+- concepts/claude-code-hooks.md：补充 Hook 在单次工具执行中的前置/后置位置，而不只限于会话级自动化
+- concepts/harness-engineering.md：补充工具执行管线作为 Harness 分层防御的一部分
+- products/claude-code-harness-analysis.md：补充 Claude Code 单次工具调用的处理层次，以及结果预算属于上下文工程
+- products/claude-agent-sdk.md：补充与 tool-execution-pipeline 的映射，明确 SDK 暴露的是可编程执行运行时
+- index.md：新增 1 个 concept 入口（tool-execution-pipeline）
+**新增交叉引用**：
+- tool-execution-pipeline ↔ harness-engineering / claude-code-hooks / constrained-decoding / openclaw / model-native-agent-interface / tool-aware-streaming-ui / claude-code-harness-analysis / claude-agent-sdk
+- claude-code-hooks ↔ tool-execution-pipeline
+- harness-engineering ↔ tool-execution-pipeline
+- claude-code-harness-analysis ↔ tool-execution-pipeline
+- claude-agent-sdk ↔ tool-execution-pipeline
+**审计备注**：
+- 本次沉淀的稳定知识焦点不是某个具体参数名或阈值，而是“模型输入不可信”下的分层联锁设计
+- OpenCode 的 Batch Tool 与 OpenClaw 的事件驱动架构被吸收到模式页中，作为并发与扩展形态的对照，而未单独膨胀成信息密度不足的产品页
+
 ## 2026-04-16: 收录《阿里下场做了中国版的 Lovable，好用到炸。》
 
 **来源**：https://mp.weixin.qq.com/s/oyxud3tAmvSR868NqK9mRA （AI产品阿颖，微信公众号，2026-04-16，CDP 抓取）以及 Meoo 官网 https://meoo.com

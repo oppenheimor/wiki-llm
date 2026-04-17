@@ -18,6 +18,7 @@
 - **脚本执行守卫**：禁止执行当前会话刚写入的脚本，避免自我注入。
 - **Worktree 隔离**：每个任务或子智能体在独立工作区操作，完成后通过 Git Merge 合并，减少主分支污染。
 - **权限分级（auto/plan/default/bypass）**：根据风险与信任动态调整审批粒度。
+- **工具执行管线**：一次工具调用通常要经过 schema 验证、业务校验、输入标准化、Pre/Post Hook、权限判定、结果预算与错误整形，核心目标不是“能调用工具”，而是“能在失败时被模型自我纠正”。
 
 ### 上下文与记忆工程
 - **三层压缩**：对话级 → 摘要级 → 持久化（memdir/tasks），确保长周期任务可恢复且不耗尽窗口。
@@ -41,6 +42,7 @@
 - [[concepts/agent-teams]]
 - [[concepts/subagent]]
 - [[patterns/tool-aware-streaming-ui]]
+- [[concepts/tool-execution-pipeline]]
 - [[patterns/supervisor-worker]]
 - [[patterns/claude-code-config-layers]]
 - [[patterns/agent-four-layers-2026]]
@@ -55,3 +57,4 @@
 - 微信文章《从Harness角度对Claude Code源码深度解读》：https://www.51cto.com/article/839733.html
 - 微信文章《刚刚！Claude Code 推出 Routines》：https://mp.weixin.qq.com/s/fjGd3mBJ2cHnR7Ctmx7vmA
 - 微信文章《Harness Engineering 实战：harness的最佳理解方式》：https://mp.weixin.qq.com/s/zafqdw8m5tYY8E49x-vf9g
+- 用户输入文章《一次工具调用背后经历了什么？以 Claude Code 为例展开聊聊》（2026-04-17 收录）

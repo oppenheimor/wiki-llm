@@ -45,6 +45,14 @@ Claude Code = 单循环 + Harness
 - **可组合性**：工具输出自然成为下一个工具的输入（如 Grep → Read → Edit）
 - **自我描述性**：每个工具通过 Zod v4 Schema 精确描述输入输出，允许 `ToolSearchTool` 实现延迟工具发现（节省上下文窗口）
 
+### 单次工具调用不是“模型说了就执行”
+
+从工具工程角度看，Claude Code 的关键价值不只是拥有很多工具，而是把一次调用拆成多层处理：schema 验证、业务校验、输入补全、前置 Hook、权限检查、真实执行、结果截断与错误整形。这里的错误返回不是传统给开发者看的底层错误码，而是给模型看的“可纠正反馈”，这直接影响自修复效率。
+
+### 结果预算是上下文工程的一部分
+
+工具输出过长时，Claude Code 不会无脑把完整结果塞回对话历史，而是用结果预算和落盘引用保护上下文窗口。这说明工具系统不仅是执行层，也是 token 经济和缓存命中率管理的一部分。
+
 ### 工具清单（按层次分类）
 
 | 层次 | 工具 | 说明 |
@@ -115,6 +123,7 @@ Claude Code = 单循环 + Harness
 - [[concepts/constrained-decoding]] — 结构化输出与工具调用可靠性的解码约束基础
 - [[concepts/agent-teams]] — 多智能体协调机制
 - [[concepts/subagent]] — 子智能体生成机制
+- [[concepts/tool-execution-pipeline]] — 单次工具调用的分层处理模式
 - [[patterns/agent-four-layers-2026]] — 2026 年 Agent 生态四层框架
 - [[products/everything-claude-code]] — 154K stars 的配置体系
 - [[products/learn-claude-code]] — Harness 工程 0→1 教学项目
@@ -125,3 +134,4 @@ Claude Code = 单循环 + Harness
 - 微信文章《从Harness角度对Claude Code源码深度解读》：https://www.51cto.com/article/839733.html
 - 源码快照来源：https://github.com/instructkr/claude-code（原始 npm 发布包 source map 泄露）
 - 教学项目：https://github.com/shareAI-lab/learn-claude-code
+- 用户输入文章《一次工具调用背后经历了什么？以 Claude Code 为例展开聊聊》（2026-04-17 收录）

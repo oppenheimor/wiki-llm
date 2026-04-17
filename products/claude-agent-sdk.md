@@ -40,6 +40,7 @@
 ## 关联页面
 
 - [[concepts/agent-loop]] — SDK 暴露的核心运行内核
+- [[concepts/tool-execution-pipeline]] — SDK 将工具执行、权限与 Hook 等联锁能力开放为可编程运行时
 - [[concepts/subagent]] — SDK 支持把子任务委托给专门 subagent
 - [[concepts/mcp]] — SDK 可接入外部 MCP Server 扩展能力边界
 - [[concepts/claude-code-skills]] — 可通过 `settingSources` 复用 skills

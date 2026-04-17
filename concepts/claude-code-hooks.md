@@ -12,6 +12,8 @@
 
 Hooks 层通过自动化解决认知负担问题：开发者不用再分心管理和 AI 对话的元数据工作。
 
+除了 memory-persistence、suggest-compact 这种“会话级自动化”，Hooks 也是工具执行管线里的策略注入点。以工具调用为中心看，PreToolUse Hook 发生在真正执行前，可用于阻止危险动作、改写输入或附加策略；PostToolUse Hook 则在执行后承担结果过滤、审计记录、自动 lint/format 等后处理职责。
+
 ## 关键 Hook 示例
 
 ### memory-persistence hook
@@ -46,7 +48,10 @@ memory-persistence hook 与 Hermes Agent 的分层持久化记忆体系有相似
 - [[products/everything-claude-code]] — Hooks 所属的四层配置体系
 - [[concepts/layered-memory]] — 相似的上下文持久化思路（Hermes Agent）
 - [[patterns/claude-code-config-layers]] — 分层配置的整体思路
+- [[concepts/tool-execution-pipeline]] — Hooks 在单次工具调用中的前后置位置
+- [[concepts/harness-engineering]] — Hook 所处的更大 Harness 安全边界
 
 ## 参考来源
 
 - 微信公众号：154K Star！Anthropic黑客松冠军的Claude Code配置大公开（2026-04-14）
+- 用户输入文章《一次工具调用背后经历了什么？以 Claude Code 为例展开聊聊》（2026-04-17 收录）
