@@ -78,6 +78,11 @@
 - [[patterns/tool-aware-streaming-ui]] — 按文本、工具调用、工具结果等不同语义单元流式渲染 Agent UI 的模式
 - [[patterns/design-skill-layering]] — 按生成、整理、还原、系统化四层来组合设计能力的 skill 使用模式
 
+- [[patterns/nginx-pm2-nextjs-single-host-deployment]] — 用 Nginx 入口、PM2 进程守护和本机 PostgreSQL 快速上线早期 Next.js 项目的单机部署模式
+- [[patterns/nextjs-subpath-deployment]] — Next.js 应用部署到 `/<app-name>` 子路径时，优先用 `basePath` 让应用原生理解部署前缀
+- [[patterns/pm2-systemd-handoff]] — 从 PM2 手工守护切换到 systemd 开机恢复时，避免 enabled 但 failed 的假自启状态
+- [[patterns/deployment-entry-layer-validation]] — 按本机端口、Nginx、公网 IP、域名/CDN、API 和数据层逐层验收部署入口
+
 ## 对比（comparisons）
 
 - [[comparisons/hermes-agent-vs-openclaw]] — 两大自托管AI智能体框架的完整对比

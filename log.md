@@ -526,3 +526,26 @@
 **审计备注**：
 - 这次沉淀的重点不是“做一个 demo 页面”，而是把 UI 风格选择前移成一个有比较框架的筛选步骤
 - 真正可复用的部分是：固定内容骨架，只放大视觉变量，让风格讨论不被结构和交互噪声污染
+
+## 2026-04-19: 收录企业 AI 转型评估 H5 腾讯云部署实战经验
+
+**来源**：本机项目部署文档 `/Users/paulchess/Desktop/Home/entrepreneurship/enterprise-ai-survey/docs/deployment/企业AI转型评估H5腾讯云部署全流程实战记录.md`
+
+**新增页面**：
+- patterns/nginx-pm2-nextjs-single-host-deployment.md — 用 Nginx 入口、PM2 进程守护和本机 PostgreSQL 快速上线早期 Next.js 项目的单机部署模式
+- patterns/nextjs-subpath-deployment.md — Next.js 应用部署到 `/<app-name>` 子路径时，优先用 `basePath` 让应用原生理解部署前缀
+- patterns/pm2-systemd-handoff.md — 从 PM2 手工守护切换到 systemd 开机恢复时，避免 enabled 但 failed 的假自启状态
+- patterns/deployment-entry-layer-validation.md — 按本机端口、Nginx、公网 IP、域名/CDN、API 和数据层逐层验收部署入口
+
+**更新页面**：
+- index.md：补充 4 个新 pattern 入口
+
+**新增交叉引用**：
+- nginx-pm2-nextjs-single-host-deployment ↔ pm2-systemd-handoff / deployment-entry-layer-validation / nextjs-subpath-deployment / engineering-sense / agent-workflow-calibration
+- nextjs-subpath-deployment ↔ nginx-pm2-nextjs-single-host-deployment / deployment-entry-layer-validation / prompt-as-system-design / engineering-sense
+- pm2-systemd-handoff ↔ nginx-pm2-nextjs-single-host-deployment / deployment-entry-layer-validation / agent-always-on-host
+- deployment-entry-layer-validation ↔ nginx-pm2-nextjs-single-host-deployment / nextjs-subpath-deployment / pm2-systemd-handoff / engineering-sense / agent-workflow-calibration
+
+**审计备注**：
+- 这次沉淀的重点不是“某台腾讯云机器怎么配”，而是把可复用部署判断抽象成四个模式：单机部署链路、子路径部署语义、PM2/systemd 接管、分层验收
+- 特别保留了两个反直觉点：Next.js 子路径部署不能只靠 Nginx rewrite；PM2 `enabled` 不代表 systemd 已经可靠接管
