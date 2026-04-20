@@ -527,6 +527,20 @@
 - 这次沉淀的重点不是“做一个 demo 页面”，而是把 UI 风格选择前移成一个有比较框架的筛选步骤
 - 真正可复用的部分是：固定内容骨架，只放大视觉变量，让风格讨论不被结构和交互噪声污染
 
+## 2026-04-18: 收录 Claude Code 安装后启动报错排障经验
+
+**来源**：本机排障实测。现象为安装 `@anthropic-ai/claude-code@2.1.114` 后，`claude` 启动报错 `claude native binary not installed`；进一步定位到 `~/.npmrc` 默认源 `https://registry.npmmirror.com/` 缺失 `@anthropic-ai/claude-code-darwin-arm64@2.1.114`
+**新增页面**：
+- patterns/npm-mirror-optional-native-package-gap.md — npm 镜像缺失平台 optional native package 时，CLI 主包安装成功但启动报错的半安装排障模式
+**更新页面**：
+- index.md：补充 1 个新 pattern 入口（npm-mirror-optional-native-package-gap）
+- products/claude-code-harness-analysis.md：补充分发层采用 wrapper + 平台原生 optionalDependencies 的说明，以及镜像缺包导致半安装状态的排障视角
+**新增交叉引用**：
+- npm-mirror-optional-native-package-gap ↔ claude-code-harness-analysis/tool-execution-pipeline/harness-engineering
+**审计备注**：
+- 这次沉淀的重点不是“Claude Code 某次安装坏了”，而是把问题抽象成一类可复用的 npm 分发/镜像排障模式
+- 关键信号是：命令存在但真实原生包缺失；主包成功不代表平台 optional dependency 成功
+
 ## 2026-04-19: 收录企业 AI 转型评估 H5 腾讯云部署实战经验
 
 **来源**：本机项目部署文档 `/Users/paulchess/Desktop/Home/entrepreneurship/enterprise-ai-survey/docs/deployment/企业AI转型评估H5腾讯云部署全流程实战记录.md`

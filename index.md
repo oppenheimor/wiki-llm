@@ -67,6 +67,7 @@
 - [[patterns/claude-code-config-layers]] — Rules/Skills/Hooks/Agents 四层可配置结构模式
 - [[patterns/llm-coding-discipline]] — LLM 编码四纪律（Think/Simplicity/Surgical/Goal-Driven）
 - [[patterns/chrome-cdp-browser-ws-uuid]] — Chrome CDP 两种启用方式下 Browser WS 路径差异的陷阱与排查
+- [[patterns/npm-mirror-optional-native-package-gap]] — npm 镜像缺失平台 optional native package 时，CLI 主包安装成功但启动报错的半安装排障模式
 - [[patterns/agent-always-on-host]] — 个人 Agent 想持续在线可用，宿主机必须 7×24 稳定运行
 - [[patterns/agent-four-layers-2026]] — 2026 初 Agent 生态四层叠乘框架（大脑/手脚/组织/进化）
 - [[patterns/model-native-agent-interface]] — 把内部复杂度翻译成模型熟悉表示，并按需渐进披露工具

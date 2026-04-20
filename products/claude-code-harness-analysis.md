@@ -29,6 +29,12 @@ Claude Code = 单循环 + Harness
 | `src/tasks/` | 任务系统 | 带依赖图的任务管理 |
 | `src/state/` | 状态管理 | 全局应用状态 |
 
+## npm 分发形态补充
+
+除了源码层的 Harness 结构，Claude Code 在交付层也采用了一个很典型的工程切分：npm 主包只承担 wrapper 与安装逻辑，真正的可执行文件按平台拆到 `optionalDependencies`，如 `@anthropic-ai/claude-code-darwin-arm64`。
+
+这意味着“`claude` 命令存在”不等于“真实二进制存在”。当第三方镜像缺失某个平台包，或 optional dependency 下载失败时，用户会得到一个能被找到但启动时报 `native binary not installed` 的半安装状态。这个现象本质上属于分发层问题，而不是 agent loop、权限或工具执行层问题。
+
 ## 核心文件
 
 | 文件 | 规模 | 职责 |
@@ -131,6 +137,7 @@ Claude Code = 单循环 + Harness
 - [[concepts/subagent]] — 子智能体生成机制
 - [[concepts/tool-execution-pipeline]] — 单次工具调用的分层处理模式
 - [[patterns/agent-four-layers-2026]] — 2026 年 Agent 生态四层框架
+- [[patterns/npm-mirror-optional-native-package-gap]] — npm 镜像缺包导致 wrapper 存在但原生二进制缺失的排障模式
 - [[products/everything-claude-code]] — 154K stars 的配置体系
 - [[products/learn-claude-code]] — Harness 工程 0→1 教学项目
 - [[concepts/claude-code-routines]] — 云端自动化运行
@@ -142,3 +149,4 @@ Claude Code = 单循环 + Harness
 - 教学项目：https://github.com/shareAI-lab/learn-claude-code
 - 用户输入文章《一次工具调用背后经历了什么？以 Claude Code 为例展开聊聊》（2026-04-17 收录）
 - 用户输入文章《Claude Code 上下文管理机制》（2026-04-17 收录）
+- 本机安装排障记录（2026-04-18）：`@anthropic-ai/claude-code@2.1.114` 主包存在，但 `@anthropic-ai/claude-code-darwin-arm64@2.1.114` 在 `registry.npmmirror.com` 缺失，导致 `claude native binary not installed`
