@@ -31,6 +31,7 @@ Skill 文件把 UI/UX 能力拆成多个可搜索域，再通过 `search.py` 做
 - [[concepts/claude-code-skills]]
 - [[products/claude-design]]
 - [[concepts/skill-system]]
+- [[patterns/anti-ai-slop-frontend-prompting]]
 - [[patterns/design-skill-layering]]
 - [[patterns/same-content-style-wall-screening]]
 

@@ -570,3 +570,29 @@
 **审计备注**：
 - 这次沉淀的重点不是“Claude 又多了一个设计功能”，而是 Anthropic 把聊天式设计、品牌系统继承、评论迭代和工程 handoff 收敛成一个官方产品工作流
 - 两份一手资料里最稳定的信息是：Claude Design 处于 research preview / experimental preview，支持 Pro/Max/Team/Enterprise，且设计交付链路已直接连到 Canva 与 Claude Code
+
+## 2026-04-20: 补充 Claude Design 提示词与前端审美约束经验
+
+**来源**：
+- 用户粘贴文章《Claude Design 提示词指南：怎么 Vibe 出好看的 UI》
+- Anthropic Cookbook《Prompting for frontend aesthetics》
+- GitHub 仓库 `elder-plinius/CL4R1T4S` 中公开收录的 `Claude-Design-Sys-Prompt.txt` 快照
+
+**新增页面**：
+- `patterns/anti-ai-slop-frontend-prompting.md` — 用字体、颜色、动效、背景四维度约束生成式前端默认收敛到“平均审美”
+
+**更新页面**：
+- `products/claude-design.md`：补充 Anthropic Cookbook 与公开 prompt 快照可解释的工作流侧面，并明确“prompt 泄露快照只是旁证”
+- `products/ui-ux-pro-max.md`：补充与 anti-ai-slop-frontend-prompting 的关联
+- `patterns/design-skill-layering.md`：补充“设计分层之外，还要显式打断默认审美收敛”的视角
+- `index.md`：补充 1 个新 pattern 入口（anti-ai-slop-frontend-prompting）
+
+**新增交叉引用**：
+- anti-ai-slop-frontend-prompting ↔ claude-design / ui-ux-pro-max / design-skill-layering / same-content-style-wall-screening / vibercoding
+- claude-design ↔ anti-ai-slop-frontend-prompting
+- ui-ux-pro-max ↔ anti-ai-slop-frontend-prompting
+- design-skill-layering ↔ anti-ai-slop-frontend-prompting
+
+**审计备注**：
+- 这次沉淀的重点不是背下一段“万能提示词”，而是把生成式 UI 的稳定失败模式抽象出来：不加约束时，模型会收敛到 generic、on-distribution 的安全审美
+- `CL4R1T4S` 中的 Claude Design prompt 文本不是 Anthropic 官方规范文件；本次只把它当作理解工作流取向的公开旁证，稳定事实仍优先 Anthropic 官方资料

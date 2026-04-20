@@ -78,7 +78,7 @@
 - [[patterns/agent-workflow-calibration]] — Agent 流程要按风险节点校准，而不是把所有好习惯写成僵硬命令链
 - [[patterns/tool-aware-streaming-ui]] — 按文本、工具调用、工具结果等不同语义单元流式渲染 Agent UI 的模式
 - [[patterns/design-skill-layering]] — 按生成、整理、还原、系统化四层来组合设计能力的 skill 使用模式
-
+- [[patterns/anti-ai-slop-frontend-prompting]] — 用字体/颜色/动效/背景四维度打断生成式前端的默认“平均审美”收敛
 - [[patterns/nginx-pm2-nextjs-single-host-deployment]] — 用 Nginx 入口、PM2 进程守护和本机 PostgreSQL 快速上线早期 Next.js 项目的单机部署模式
 - [[patterns/nextjs-subpath-deployment]] — Next.js 应用部署到 `/<app-name>` 子路径时，优先用 `basePath` 让应用原生理解部署前缀
 - [[patterns/pm2-systemd-handoff]] — 从 PM2 手工守护切换到 systemd 开机恢复时，避免 enabled 但 failed 的假自启状态

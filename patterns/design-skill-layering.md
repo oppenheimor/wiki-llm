@@ -21,6 +21,8 @@
 
 然后再做 skill 组合，而不是执着于某个名字本身。文章里提到的 `UI UX Pro Max`、`UI Skills`、`Impeccable`、`Vercel Web Design Guidelines` 等，本质上分别服务于不同阶段的能力缺口。到 2026-04-20 查阅的 Anthropic 官方 [[products/claude-design]]，则把这种“按阶段反复生成与收敛”的设计工作流产品化成了 Claude 内部原生界面：先生成首版，再通过评论、对话和 handoff 持续推进。
 
+如果当前卡点不是“缺少工具”，而是“生成结果总带平均审美味道”，那问题就不只属于生成层，还需要叠加 [[patterns/anti-ai-slop-frontend-prompting]] 这类专门约束默认审美收敛的提示模式。
+
 ## 权衡取舍
 
 这套模式的好处是：讨论会更聚焦，团队不再争“哪个 skill 最强”，而是先问“当前卡在哪一层”。它也能减少误用，例如把本该做规范收敛的问题误判成“再生成一个更炫的页面”。
@@ -35,6 +37,7 @@
 - [[concepts/skill-system]]
 - [[products/claude-design]]
 - [[products/ui-ux-pro-max]]
+- [[patterns/anti-ai-slop-frontend-prompting]]
 - [[products/superpowers]]
 - [[patterns/same-content-style-wall-screening]]
 
@@ -44,3 +47,4 @@
 - 本机 skill：`/Users/paulchess/.codex/skills/ui-ux-pro-max/SKILL.md`（2026-04-17 查阅）
 - 本机 skill：`/Users/paulchess/.codex/skills/web-design-guidelines/SKILL.md`（2026-04-17 查阅）
 - Anthropic 官方新闻《Introducing Claude Design by Anthropic Labs》（2026-04-20 通过 CDP 查阅）
+- 用户粘贴文章《Claude Design 提示词指南：怎么 Vibe 出好看的 UI》（2026-04-20 收录）
