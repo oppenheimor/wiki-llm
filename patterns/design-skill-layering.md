@@ -19,7 +19,7 @@
 - **还原层**：已有设计稿，目标是把间距、状态、动效和细节精确落地
 - **系统化层**：项目进入团队或长期维护阶段，目标是把设计能力嵌进 agent、审计和开发流程
 
-然后再做 skill 组合，而不是执着于某个名字本身。文章里提到的 `UI UX Pro Max`、`UI Skills`、`Impeccable`、`Vercel Web Design Guidelines` 等，本质上分别服务于不同阶段的能力缺口。
+然后再做 skill 组合，而不是执着于某个名字本身。文章里提到的 `UI UX Pro Max`、`UI Skills`、`Impeccable`、`Vercel Web Design Guidelines` 等，本质上分别服务于不同阶段的能力缺口。到 2026-04-20 查阅的 Anthropic 官方 [[products/claude-design]]，则把这种“按阶段反复生成与收敛”的设计工作流产品化成了 Claude 内部原生界面：先生成首版，再通过评论、对话和 handoff 持续推进。
 
 ## 权衡取舍
 
@@ -33,6 +33,7 @@
 
 - [[concepts/claude-code-skills]]
 - [[concepts/skill-system]]
+- [[products/claude-design]]
 - [[products/ui-ux-pro-max]]
 - [[products/superpowers]]
 - [[patterns/same-content-style-wall-screening]]
@@ -42,3 +43,4 @@
 - 微信公众号《程序员必备的 Design Skills，不要让 UI 成为产品短板》（壹零笔记，2026-03-17，2026-04-17 通过 CDP 抓取）
 - 本机 skill：`/Users/paulchess/.codex/skills/ui-ux-pro-max/SKILL.md`（2026-04-17 查阅）
 - 本机 skill：`/Users/paulchess/.codex/skills/web-design-guidelines/SKILL.md`（2026-04-17 查阅）
+- Anthropic 官方新闻《Introducing Claude Design by Anthropic Labs》（2026-04-20 通过 CDP 查阅）

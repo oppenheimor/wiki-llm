@@ -549,3 +549,24 @@
 **审计备注**：
 - 这次沉淀的重点不是“某台腾讯云机器怎么配”，而是把可复用部署判断抽象成四个模式：单机部署链路、子路径部署语义、PM2/systemd 接管、分层验收
 - 特别保留了两个反直觉点：Next.js 子路径部署不能只靠 Nginx rewrite；PM2 `enabled` 不代表 systemd 已经可靠接管
+
+## 2026-04-20: 收录 Claude Design 官方资料
+
+**来源**：
+- https://www.anthropic.com/news/claude-design-anthropic-labs （Anthropic 官方新闻，2026-04-17 发布，2026-04-20 通过 CDP 查阅）
+- https://support.claude.com/en/articles/14604416-get-started-with-claude-design （Claude 帮助中心，2026-04-20 通过 CDP 查阅）
+**新增页面**：
+- `products/claude-design.md` — Anthropic Labs 推出的对话式视觉设计产品，连接设计生成、组织协作与 Claude Code handoff
+**更新页面**：
+- `patterns/design-skill-layering.md`：补充 Claude Design 作为“设计分层工作流产品化”的官方案例
+- `concepts/claude-code-skills.md`：补充 design skill 走向 Claude 内建产品表面的路径
+- `products/ui-ux-pro-max.md`：补充与 Claude Design 的定位差异
+- `index.md`：补充 1 个新 product 入口（claude-design）
+**新增交叉引用**：
+- claude-design ↔ design-skill-layering / claude-code-skills / ui-ux-pro-max / claude-agent-sdk
+- design-skill-layering ↔ claude-design
+- claude-code-skills ↔ claude-design
+- ui-ux-pro-max ↔ claude-design
+**审计备注**：
+- 这次沉淀的重点不是“Claude 又多了一个设计功能”，而是 Anthropic 把聊天式设计、品牌系统继承、评论迭代和工程 handoff 收敛成一个官方产品工作流
+- 两份一手资料里最稳定的信息是：Claude Design 处于 research preview / experimental preview，支持 Pro/Max/Team/Enterprise，且设计交付链路已直接连到 Canva 与 Claude Code

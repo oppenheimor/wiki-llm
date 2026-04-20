@@ -24,9 +24,12 @@ Skill 文件把 UI/UX 能力拆成多个可搜索域，再通过 `search.py` 做
 - 希望把设计决策从“拍脑袋”变成“先检索、再组合、后实现”
 - 在 AI 驱动前端开发里，把设计知识作为可复用 skill 资产加载
 
+相较于 Anthropic 官方的 [[products/claude-design]]，UI/UX Pro Max 更偏“本地可检索设计知识库 + 生成建议”，而不是带组织协作、设计系统继承和工程 handoff 的完整产品界面。
+
 ## 关联页面
 
 - [[concepts/claude-code-skills]]
+- [[products/claude-design]]
 - [[concepts/skill-system]]
 - [[patterns/design-skill-layering]]
 - [[patterns/same-content-style-wall-screening]]

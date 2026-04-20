@@ -55,6 +55,7 @@
 - [[products/vercel-ai-sdk]] — 面向 AI 应用的全栈 SDK，提供 Data Stream Protocol 和前端消息消费抽象
 - [[products/meoo]] — 阿里推出的 AI 应用生成产品，用自然语言和预置工作流快速生成网页与应用原型
 - [[products/claude-agent-sdk]] — Anthropic 官方 Agent 开发 SDK，把 Claude Code 的运行时能力开放为 Python / TypeScript 库
+- [[products/claude-design]] — Anthropic Labs 推出的对话式视觉设计产品，连接设计生成、协作与 Claude Code handoff
 - [[products/superpowers]] — 面向编程 Agent 的方法论型插件，把工程流程固化为自动触发的 skills
 - [[products/gstack]] — 面向编码 Agent 的执行型技能工具箱，封装浏览器、QA、发布与护栏动作
 - [[products/claude-managed-agents]] — Anthropic 托管式云端 Agent 运行平台，以 Agent/Environment/Session/Events 组织 hosted harness
